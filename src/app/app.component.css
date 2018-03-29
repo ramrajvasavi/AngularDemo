@@ -1,0 +1,16 @@
+.navTag{
+    width: 100%;
+    background-color: skyblue;
+    height: 48px;
+}
+#companyname{
+    width:200px;
+    display:inline-block;
+    font-size:130%;
+    color: White;
+    padding:10px;
+}
+.loginli{
+    float:right;
+    margin:8px;
+}

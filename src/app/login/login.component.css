@@ -1,0 +1,25 @@
+.logininput{
+    border:none;
+    outline:none;
+    width:96%;
+    border-bottom: 1px solid lightgrey;
+    height: 24px;
+    margin-bottom: 5px;
+    background:none;
+    padding:5px;
+}
+.loginbtn{
+    border: lightgreen;
+    height:30px;
+    background-color: lightgreen;
+   
+}
+#loginid{
+    margin:auto;
+    width: 300px;
+    background-color:lightgoldenrodyellow;
+    border:1px solid grey;
+    border-radius: 5px;
+    padding:5px;
+
+}

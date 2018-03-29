@@ -1,0 +1,17 @@
+<div>
+  <h1>Welcome to {{name}}</h1>
+  
+</div>
+
+<div class="coursesDiv">
+  <h1 style="color:white;">All Courses</h1>
+  <ul class="courseUl">
+    <li class="courseli" *ngFor="let course of myCourses" (click)="show = !show">
+      <div class="licontent">
+       <span>Name: {{course.course}}</span><br>
+       <span>Type: {{course.typeCourse}}</span>
+      </div>
+    </li>
+  </ul>
+</div>
+<div *ngIf="show">This is Front-end Courses</div>
