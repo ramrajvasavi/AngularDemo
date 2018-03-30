@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { LoginServiceService } from '../service/login-service.service';
+import { QuoteDataService } from '../service/quote-data.service';
 
 export interface type{
   typeCourse:string;
@@ -8,7 +9,8 @@ export interface type{
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['../../../homeComponent.css']
+  styleUrls: ['../../../homeComponent.css'],
+  encapsulation: ViewEncapsulation.Emulated
 })
 
 export class HomeComponent implements OnInit {
