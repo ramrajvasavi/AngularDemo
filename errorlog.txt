@@ -1,0 +1,1270 @@
+C:\Users\Ramprasad.gadamsetty\Desktop\RRV\Angular4Practice\SinglePageApplication>cf logs angular4-demo --recent
+Retrieving logs for app angular4-demo in org RRV-DEV / space development as ramprasad.gadamsetty@accenture.com...
+
+   2018-03-30T13:54:54.03+0530 [API/14] OUT Created app with guid 8dc88bc5-b372-4158-b221-f82740f888ae
+   2018-03-30T13:56:59.27+0530 [API/11] OUT Updated app with guid 8dc88bc5-b372-4158-b221-f82740f888ae ({"state"=>"STARTED"})
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT regexpu-core@1.0.0 /tmp/contents728445206/deps/0/packages/node_modules/regexpu-core
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT regenerate@1.3.3 /tmp/contents728445206/deps/0/packages/node_modules/regenerate
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT regjsgen@0.2.0 /tmp/contents728445206/deps/0/packages/node_modules/regjsgen
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT regjsparser@0.1.5 /tmp/contents728445206/deps/0/packages/node_modules/regjsparser
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT jsesc@0.5.0 /tmp/contents728445206/deps/0/packages/node_modules/regjsparser/node_modules/jsesc
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT cssauron@1.4.0 /tmp/contents728445206/deps/0/packages/node_modules/cssauron
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT through@2.3.8 /tmp/contents728445206/deps/0/packages/node_modules/through
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT semver-dsl@1.0.1 /tmp/contents728445206/deps/0/packages/node_modules/semver-dsl
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT collection-visit@1.0.0 /tmp/contents728445206/deps/0/packages/node_modules/collection-visit
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT map-visit@1.0.0 /tmp/contents728445206/deps/0/packages/node_modules/map-visit
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT object-visit@1.0.1 /tmp/contents728445206/deps/0/packages/node_modules/object-visit
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT isobject@3.0.1 /tmp/contents728445206/deps/0/packages/node_modules/object-visit/node_modules/isobject
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT colors@1.1.2 /tmp/contents728445206/deps/0/packages/node_modules/colors
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT combine-lists@1.0.1 /tmp/contents728445206/deps/0/packages/node_modules/combine-lists
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT combined-stream@1.0.6 /tmp/contents728445206/deps/0/packages/node_modules/combined-stream
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT delayed-stream@1.0.0 /tmp/contents728445206/deps/0/packages/node_modules/delayed-stream
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT commander@2.15.1 /tmp/contents728445206/deps/0/packages/node_modules/commander
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT common-tags@1.7.2 /tmp/contents728445206/deps/0/packages/node_modules/common-tags
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT commondir@1.0.1 /tmp/contents728445206/deps/0/packages/node_modules/commondir
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT component-bind@1.0.0 /tmp/contents728445206/deps/0/packages/node_modules/component-bind
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT compare-versions@3.1.0 /tmp/contents728445206/deps/0/packages/node_modules/compare-versions
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT component-emitter@1.2.1 /tmp/contents728445206/deps/0/packages/node_modules/component-emitter
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT component-inherit@0.0.3 /tmp/contents728445206/deps/0/packages/node_modules/component-inherit
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT compressible@2.0.13 /tmp/contents728445206/deps/0/packages/node_modules/compressible
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT compression@1.7.2 /tmp/contents728445206/deps/0/packages/node_modules/compression
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT on-headers@1.0.1 /tmp/contents728445206/deps/0/packages/node_modules/on-headers
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT vary@1.1.2 /tmp/contents728445206/deps/0/packages/node_modules/vary
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT connect-history-api-fallback@1.5.0 /tmp/contents728445206/deps/0/packages/node_modules/connect-history-api-fallback
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT console-browserify@1.1.0 /tmp/contents728445206/deps/0/packages/node_modules/console-browserify
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT date-now@0.1.4 /tmp/contents728445206/deps/0/packages/node_modules/date-now
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT console-control-strings@1.1.0 /tmp/contents728445206/deps/0/packages/node_modules/console-control-strings
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT constants-browserify@1.0.0 /tmp/contents728445206/deps/0/packages/node_modules/constants-browserify
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT content-disposition@0.5.2 /tmp/contents728445206/deps/0/packages/node_modules/content-disposition
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT content-type@1.0.4 /tmp/contents728445206/deps/0/packages/node_modules/content-type
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT convert-source-map@1.5.1 /tmp/contents728445206/deps/0/packages/node_modules/convert-source-map
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT cookie@0.3.1 /tmp/contents728445206/deps/0/packages/node_modules/cookie
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT cookie-signature@1.0.6 /tmp/contents728445206/deps/0/packages/node_modules/cookie-signature
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT core-object@3.1.5 /tmp/contents728445206/deps/0/packages/node_modules/core-object
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT create-ecdh@4.0.0 /tmp/contents728445206/deps/0/packages/node_modules/create-ecdh
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT cross-spawn@3.0.1 /tmp/contents728445206/deps/0/packages/node_modules/cross-spawn
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT which@1.3.0 /tmp/contents728445206/deps/0/packages/node_modules/which
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT isexe@2.0.0 /tmp/contents728445206/deps/0/packages/node_modules/isexe
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT cryptiles@2.0.5 /tmp/contents728445206/deps/0/packages/node_modules/cryptiles
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT crypto-browserify@3.12.0 /tmp/contents728445206/deps/0/packages/node_modules/crypto-browserify
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT diffie-hellman@5.0.2 /tmp/contents728445206/deps/0/packages/node_modules/diffie-hellman
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT miller-rabin@4.0.1 /tmp/contents728445206/deps/0/packages/node_modules/miller-rabin
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT fresh@0.5.2 /tmp/contents728445206/deps/0/packages/node_modules/fresh
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT fs-access@1.0.1 /tmp/contents728445206/deps/0/packages/node_modules/fs-access
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT null-check@1.0.0 /tmp/contents728445206/deps/0/packages/node_modules/null-check
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT fs-extra@4.0.3 /tmp/contents728445206/deps/0/packages/node_modules/fs-extra
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT jsonfile@4.0.0 /tmp/contents728445206/deps/0/packages/node_modules/jsonfile
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT universalify@0.1.1 /tmp/contents728445206/deps/0/packages/node_modules/universalify
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT fstream@1.0.11 /tmp/contents728445206/deps/0/packages/node_modules/fstream
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT gauge@2.7.4 /tmp/contents728445206/deps/0/packages/node_modules/gauge
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT has-unicode@2.0.1 /tmp/contents728445206/deps/0/packages/node_modules/has-unicode
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT signal-exit@3.0.2 /tmp/contents728445206/deps/0/packages/node_modules/signal-exit
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT wide-align@1.1.2 /tmp/contents728445206/deps/0/packages/node_modules/wide-align
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT gaze@1.1.2 /tmp/contents728445206/deps/0/packages/node_modules/gaze
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT globule@1.2.0 /tmp/contents728445206/deps/0/packages/node_modules/globule
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT generate-function@2.0.0 /tmp/contents728445206/deps/0/packages/node_modules/generate-function
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT get-caller-file@1.0.2 /tmp/contents728445206/deps/0/packages/node_modules/get-caller-file
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT get-stdin@4.0.1 /tmp/contents728445206/deps/0/packages/node_modules/get-stdin
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT get-stream@3.0.0 /tmp/contents728445206/deps/0/packages/node_modules/get-stream
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT get-uri@2.0.1 /tmp/contents728445206/deps/0/packages/node_modules/get-uri
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT ftp@0.3.10 /tmp/contents728445206/deps/0/packages/node_modules/ftp
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT readable-stream@1.1.14 /tmp/contents728445206/deps/0/packages/node_modules/ftp/node_modules/readable-stream
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT isarray@0.0.1 /tmp/contents728445206/deps/0/packages/node_modules/ftp/node_modules/isarray
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT string_decoder@0.10.31 /tmp/contents728445206/deps/0/packages/node_modules/ftp/node_modules/string_decoder
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT xregexp@2.0.0 /tmp/contents728445206/deps/0/packages/node_modules/xregexp
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT globby@7.1.1 /tmp/contents728445206/deps/0/packages/node_modules/globby
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT array-union@1.0.2 /tmp/contents728445206/deps/0/packages/node_modules/array-union
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT ignore@3.3.7 /tmp/contents728445206/deps/0/packages/node_modules/ignore
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT slash@1.0.0 /tmp/contents728445206/deps/0/packages/node_modules/slash
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT handle-thing@1.2.5 /tmp/contents728445206/deps/0/packages/node_modules/handle-thing
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT generate-object-property@1.2.0 /tmp/contents728445206/deps/0/packages/node_modules/generate-object-property
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT is-property@1.0.2 /tmp/contents728445206/deps/0/packages/node_modules/is-property
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT har-schema@1.0.5 /tmp/contents728445206/deps/0/packages/node_modules/har-schema
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT has-cors@1.1.0 /tmp/contents728445206/deps/0/packages/node_modules/has-cors
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT saucelabs@1.3.0 /tmp/contents728445206/deps/0/packages/node_modules/saucelabs
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT sax@0.5.8 /tmp/contents728445206/deps/0/packages/node_modules/sax
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT select-hose@2.0.0 /tmp/contents728445206/deps/0/packages/node_modules/select-hose
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT selfsigned@1.10.2 /tmp/contents728445206/deps/0/packages/node_modules/selfsigned
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT serve-index@1.9.1 /tmp/contents728445206/deps/0/packages/node_modules/serve-index
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT serialize-javascript@1.4.0 /tmp/contents728445206/deps/0/packages/node_modules/serialize-javascript
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT serve-static@1.13.2 /tmp/contents728445206/deps/0/packages/node_modules/serve-static
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT send@0.16.2 /tmp/contents728445206/deps/0/packages/node_modules/send
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT mime@1.4.1 /tmp/contents728445206/deps/0/packages/node_modules/send/node_modules/mime
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT setprototypeof@1.1.0 /tmp/contents728445206/deps/0/packages/node_modules/setprototypeof
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT shebang-command@1.2.0 /tmp/contents728445206/deps/0/packages/node_modules/shebang-command
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT shebang-regex@1.0.0 /tmp/contents728445206/deps/0/packages/node_modules/shebang-regex
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT shell-quote@1.6.1 /tmp/contents728445206/deps/0/packages/node_modules/shell-quote
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT silent-error@1.1.0 /tmp/contents728445206/deps/0/packages/node_modules/silent-error
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT slack-node@0.2.0 /tmp/contents728445206/deps/0/packages/node_modules/slack-node
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT requestretry@1.13.0 /tmp/contents728445206/deps/0/packages/node_modules/requestretry
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT when@3.7.8 /tmp/contents728445206/deps/0/packages/node_modules/requestretry/node_modules/when
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT snapdragon-util@3.0.1 /tmp/contents728445206/deps/0/packages/node_modules/snapdragon-util
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT socket.io@2.0.4 /tmp/contents728445206/deps/0/packages/node_modules/socket.io
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT engine.io@3.1.5 /tmp/contents728445206/deps/0/packages/node_modules/engine.io
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT debug@3.1.0 /tmp/contents728445206/deps/0/packages/node_modules/engine.io/node_modules/debug
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT ws@3.3.3 /tmp/contents728445206/deps/0/packages/node_modules/ws
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT ultron@1.1.1 /tmp/contents728445206/deps/0/packages/node_modules/ultron
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT socket.io-adapter@1.1.1 /tmp/contents728445206/deps/0/packages/node_modules/socket.io-adapter
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT socket.io-client@2.0.4 /tmp/contents728445206/deps/0/packages/node_modules/socket.io-client
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT engine.io-client@3.1.6 /tmp/contents728445206/deps/0/packages/node_modules/engine.io-client
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT debug@3.1.0 /tmp/contents728445206/deps/0/packages/node_modules/engine.io-client/node_modules/debug
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT xmlhttprequest-ssl@1.5.5 /tmp/contents728445206/deps/0/packages/node_modules/xmlhttprequest-ssl
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT yeast@0.1.2 /tmp/contents728445206/deps/0/packages/node_modules/yeast
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT socket.io-parser@3.1.3 /tmp/contents728445206/deps/0/packages/node_modules/socket.io-parser
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT debug@3.1.0 /tmp/contents728445206/deps/0/packages/node_modules/socket.io-parser/node_modules/debug
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT isarray@2.0.1 /tmp/contents728445206/deps/0/packages/node_modules/socket.io-parser/node_modules/isarray
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT to-array@0.1.4 /tmp/contents728445206/deps/0/packages/node_modules/to-array
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT sockjs@0.3.19 /tmp/contents728445206/deps/0/packages/node_modules/sockjs
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT source-map-resolve@0.5.1 /tmp/contents728445206/deps/0/packages/node_modules/source-map-resolve
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT atob@2.0.3 /tmp/contents728445206/deps/0/packages/node_modules/atob
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT source-map-url@0.4.0 /tmp/contents728445206/deps/0/packages/node_modules/source-map-url
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT urix@0.1.0 /tmp/contents728445206/deps/0/packages/node_modules/urix
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT spdy@3.4.7 /tmp/contents728445206/deps/0/packages/node_modules/spdy
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT spdy-transport@2.1.0 /tmp/contents728445206/deps/0/packages/node_modules/spdy-transport
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT split-string@3.1.0 /tmp/contents728445206/deps/0/packages/node_modules/split-string
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT stdout-stream@1.4.0 /tmp/contents728445206/deps/0/packages/node_modules/stdout-stream
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT stream-browserify@2.0.1 /tmp/contents728445206/deps/0/packages/node_modules/stream-browserify
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT stream-combiner2@1.1.1 /tmp/contents728445206/deps/0/packages/node_modules/stream-combiner2
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT stream-http@2.8.1 /tmp/contents728445206/deps/0/packages/node_modules/stream-http
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT to-arraybuffer@1.0.1 /tmp/contents728445206/deps/0/packages/node_modules/to-arraybuffer
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT stream-splicer@2.0.0 /tmp/contents728445206/deps/0/packages/node_modules/stream-splicer
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT strip-eof@1.0.0 /tmp/contents728445206/deps/0/packages/node_modules/strip-eof
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT strip-json-comments@2.0.1 /tmp/contents728445206/deps/0/packages/node_modules/strip-json-comments
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT stylus-loader@3.0.2 /tmp/contents728445206/deps/0/packages/node_modules/stylus-loader
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT when@3.6.4 /tmp/contents728445206/deps/0/packages/node_modules/when
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT syntax-error@1.4.0 /tmp/contents728445206/deps/0/packages/node_modules/syntax-error
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT tar@2.2.1 /tmp/contents728445206/deps/0/packages/node_modules/tar
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT time-stamp@2.0.0 /tmp/contents728445206/deps/0/packages/node_modules/time-stamp
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT timespan@2.3.0 /tmp/contents728445206/deps/0/packages/node_modules/timespan
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT timers-browserify@2.0.6 /tmp/contents728445206/deps/0/packages/node_modules/timers-browserify
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT tmp@0.0.33 /tmp/contents728445206/deps/0/packages/node_modules/tmp
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT to-object-path@0.3.0 /tmp/contents728445206/deps/0/packages/node_modules/to-object-path
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT to-regex@3.0.2 /tmp/contents728445206/deps/0/packages/node_modules/to-regex
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT define-property@2.0.2 /tmp/contents728445206/deps/0/packages/node_modules/define-property
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT is-descriptor@1.0.2 /tmp/contents728445206/deps/0/packages/node_modules/is-descriptor
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT is-accessor-descriptor@1.0.0 /tmp/contents728445206/deps/0/packages/node_modules/is-accessor-descriptor
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT kind-of@6.0.2 /tmp/contents728445206/deps/0/packages/node_modules/is-accessor-descriptor/node_modules/kind-of
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT is-data-descriptor@1.0.0 /tmp/contents728445206/deps/0/packages/node_modules/is-data-descriptor
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT kind-of@6.0.2 /tmp/contents728445206/deps/0/packages/node_modules/is-data-descriptor/node_modules/kind-of
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT kind-of@6.0.2 /tmp/contents728445206/deps/0/packages/node_modules/is-descriptor/node_modules/kind-of
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT isobject@3.0.1 /tmp/contents728445206/deps/0/packages/node_modules/define-property/node_modules/isobject
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT toposort@1.0.6 /tmp/contents728445206/deps/0/packages/node_modules/toposort
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT trim-newlines@1.0.0 /tmp/contents728445206/deps/0/packages/node_modules/trim-newlines
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT tsscmp@1.0.5 /tmp/contents728445206/deps/0/packages/node_modules/tsscmp
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT tsutils@2.22.2 /tmp/contents728445206/deps/0/packages/node_modules/tsutils
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT tty-browserify@0.0.0 /tmp/contents728445206/deps/0/packages/node_modules/tty-browserify
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT type-is@1.6.16 /tmp/contents728445206/deps/0/packages/node_modules/type-is
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT uglify-to-browserify@1.0.2 /tmp/contents728445206/deps/0/packages/node_modules/uglify-to-browserify
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT upath@1.0.4 /tmp/contents728445206/deps/0/packages/node_modules/upath
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT useragent@2.3.0 /tmp/contents728445206/deps/0/packages/node_modules/useragent
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT utils-merge@1.0.1 /tmp/contents728445206/deps/0/packages/node_modules/utils-merge
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT uws@9.14.0 /tmp/contents728445206/deps/0/packages/node_modules/uws
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT v8flags@3.0.2 /tmp/contents728445206/deps/0/packages/node_modules/v8flags
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT vm-browserify@0.0.4 /tmp/contents728445206/deps/0/packages/node_modules/vm-browserify
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT webpack-dev-middleware@1.12.2 /tmp/contents728445206/deps/0/packages/node_modules/webpack-dev-middleware
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT webpack-merge@4.1.2 /tmp/contents728445206/deps/0/packages/node_modules/webpack-merge
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT webpack-subresource-integrity@1.0.4 /tmp/contents728445206/deps/0/packages/node_modules/webpack-subresource-integrity
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT webpack-core@0.6.9 /tmp/contents728445206/deps/0/packages/node_modules/webpack-core
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT source-list-map@0.1.8 /tmp/contents728445206/deps/0/packages/node_modules/webpack-core/node_modules/source-list-map
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT source-map@0.4.4 /tmp/contents728445206/deps/0/packages/node_modules/webpack-core/node_modules/source-map
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT which-module@1.0.0 /tmp/contents728445206/deps/0/packages/node_modules/which-module
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT worker-farm@1.6.0 /tmp/contents728445206/deps/0/packages/node_modules/worker-farm
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT xmlbuilder@9.0.7 /tmp/contents728445206/deps/0/packages/node_modules/xmlbuilder
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT yn@2.0.0 /tmp/contents728445206/deps/0/packages/node_modules/yn
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT @angular/cli@1.7.3 /tmp/contents728445206/deps/0/packages/node_modules/@angular/cli
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT @angular-devkit/build-optimizer@0.3.2 /tmp/contents728445206/deps/0/packages/node_modules/@angular-devkit/build-optimizer
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT typescript@2.6.2 /tmp/contents728445206/deps/0/packages/node_modules/@angular-devkit/build-optimizer/node_modules/typescript
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT @angular-devkit/core@0.3.2 /tmp/contents728445206/deps/0/packages/node_modules/@angular-devkit/core
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT ajv@5.5.2 /tmp/contents728445206/deps/0/packages/node_modules/@angular-devkit/core/node_modules/ajv
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT @schematics/angular@0.3.2 /tmp/contents728445206/deps/0/packages/node_modules/@schematics/angular
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT typescript@2.6.2 /tmp/contents728445206/deps/0/packages/node_modules/@schematics/angular/node_modules/typescript
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT browserslist@2.11.3 /tmp/contents728445206/deps/0/packages/node_modules/browserslist
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT copy-webpack-plugin@4.4.3 /tmp/contents728445206/deps/0/packages/node_modules/copy-webpack-plugin
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT is-glob@4.0.0 /tmp/contents728445206/deps/0/packages/node_modules/copy-webpack-plugin/node_modules/is-glob
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT is-extglob@2.1.1 /tmp/contents728445206/deps/0/packages/node_modules/copy-webpack-plugin/node_modules/is-extglob
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT extract-text-webpack-plugin@3.0.2 /tmp/contents728445206/deps/0/packages/node_modules/extract-text-webpack-plugin
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT schema-utils@0.3.0 /tmp/contents728445206/deps/0/packages/node_modules/extract-text-webpack-plugin/node_modules/schema-utils
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT ajv@5.5.2 /tmp/contents728445206/deps/0/packages/node_modules/extract-text-webpack-plugin/node_modules/ajv
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT html-webpack-plugin@2.30.1 /tmp/contents728445206/deps/0/packages/node_modules/html-webpack-plugin
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT html-minifier@3.5.12 /tmp/contents728445206/deps/0/packages/node_modules/html-minifier
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT he@1.1.1 /tmp/contents728445206/deps/0/packages/node_modules/he
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT uglify-js@3.3.16 /tmp/contents728445206/deps/0/packages/node_modules/uglify-js
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT source-map@0.6.1 /tmp/contents728445206/deps/0/packages/node_modules/uglify-js/node_modules/source-map
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT loader-utils@0.2.17 /tmp/contents728445206/deps/0/packages/node_modules/html-webpack-plugin/node_modules/loader-utils
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT istanbul-instrumenter-loader@3.0.0 /tmp/contents728445206/deps/0/packages/node_modules/istanbul-instrumenter-loader
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT schema-utils@0.3.0 /tmp/contents728445206/deps/0/packages/node_modules/istanbul-instrumenter-loader/node_modules/schema-utils
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT ajv@5.5.2 /tmp/contents728445206/deps/0/packages/node_modules/istanbul-instrumenter-loader/node_modules/ajv
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT less@2.7.3 /tmp/contents728445206/deps/0/packages/node_modules/less
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT nopt@4.0.1 /tmp/contents728445206/deps/0/packages/node_modules/nopt
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT portfinder@1.0.13 /tmp/contents728445206/deps/0/packages/node_modules/portfinder
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT async@1.5.2 /tmp/contents728445206/deps/0/packages/node_modules/portfinder/node_modules/async
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT style-loader@0.19.1 /tmp/contents728445206/deps/0/packages/node_modules/style-loader
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT schema-utils@0.3.0 /tmp/contents728445206/deps/0/packages/node_modules/style-loader/node_modules/schema-utils
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT ajv@5.5.2 /tmp/contents728445206/deps/0/packages/node_modules/style-loader/node_modules/ajv
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT stylus@0.54.5 /tmp/contents728445206/deps/0/packages/node_modules/stylus
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT glob@7.0.6 /tmp/contents728445206/deps/0/packages/node_modules/stylus/node_modules/glob
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT source-map@0.1.43 /tmp/contents728445206/deps/0/packages/node_modules/stylus/node_modules/source-map
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT uglifyjs-webpack-plugin@1.2.4 /tmp/contents728445206/deps/0/packages/node_modules/uglifyjs-webpack-plugin
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT source-map@0.6.1 /tmp/contents728445206/deps/0/packages/node_modules/uglifyjs-webpack-plugin/node_modules/source-map
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT uglify-es@3.3.9 /tmp/contents728445206/deps/0/packages/node_modules/uglifyjs-webpack-plugin/node_modules/uglify-es
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT commander@2.13.0 /tmp/contents728445206/deps/0/packages/node_modules/uglifyjs-webpack-plugin/node_modules/commander
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT url-loader@0.6.2 /tmp/contents728445206/deps/0/packages/node_modules/url-loader
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT schema-utils@0.3.0 /tmp/contents728445206/deps/0/packages/node_modules/url-loader/node_modules/schema-utils
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT ajv@5.5.2 /tmp/contents728445206/deps/0/packages/node_modules/url-loader/node_modules/ajv
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT webpack@3.11.0 /tmp/contents728445206/deps/0/packages/node_modules/webpack
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT acorn-dynamic-import@2.0.2 /tmp/contents728445206/deps/0/packages/node_modules/acorn-dynamic-import
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT acorn@4.0.13 /tmp/contents728445206/deps/0/packages/node_modules/acorn-dynamic-import/node_modules/acorn
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT node-libs-browser@2.1.0 /tmp/contents728445206/deps/0/packages/node_modules/node-libs-browser
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT punycode@1.4.1 /tmp/contents728445206/deps/0/packages/node_modules/node-libs-browser/node_modules/punycode
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT url@0.11.0 /tmp/contents728445206/deps/0/packages/node_modules/url
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT punycode@1.3.2 /tmp/contents728445206/deps/0/packages/node_modules/url/node_modules/punycode
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT uglifyjs-webpack-plugin@0.4.6 /tmp/contents728445206/deps/0/packages/node_modules/webpack/node_modules/uglifyjs-webpack-plugin
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT uglify-js@2.8.29 /tmp/contents728445206/deps/0/packages/node_modules/webpack/node_modules/uglify-js
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT yargs@3.10.0 /tmp/contents728445206/deps/0/packages/node_modules/webpack/node_modules/uglify-js/node_modules/yargs
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT camelcase@1.2.1 /tmp/contents728445206/deps/0/packages/node_modules/webpack/node_modules/camelcase
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT cliui@2.1.0 /tmp/contents728445206/deps/0/packages/node_modules/webpack/node_modules/cliui
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT watchpack@1.5.0 /tmp/contents728445206/deps/0/packages/node_modules/watchpack
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT chokidar@2.0.3 /tmp/contents728445206/deps/0/packages/node_modules/watchpack/node_modules/chokidar
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT anymatch@2.0.0 /tmp/contents728445206/deps/0/packages/node_modules/watchpack/node_modules/anymatch
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT micromatch@3.1.10 /tmp/contents728445206/deps/0/packages/node_modules/watchpack/node_modules/micromatch
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT arr-diff@4.0.0 /tmp/contents728445206/deps/0/packages/node_modules/watchpack/node_modules/arr-diff
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT array-unique@0.3.2 /tmp/contents728445206/deps/0/packages/node_modules/watchpack/node_modules/array-unique
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT braces@2.3.1 /tmp/contents728445206/deps/0/packages/node_modules/watchpack/node_modules/braces
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT define-property@1.0.0 /tmp/contents728445206/deps/0/packages/node_modules/watchpack/node_modules/braces/node_modules/define-property
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT extend-shallow@2.0.1 /tmp/contents728445206/deps/0/packages/node_modules/watchpack/node_modules/braces/node_modules/extend-shallow
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT fill-range@4.0.0 /tmp/contents728445206/deps/0/packages/node_modules/watchpack/node_modules/fill-range
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT extend-shallow@2.0.1 /tmp/contents728445206/deps/0/packages/node_modules/watchpack/node_modules/fill-range/node_modules/extend-shallow
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT is-number@3.0.0 /tmp/contents728445206/deps/0/packages/node_modules/watchpack/node_modules/is-number
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT kind-of@3.2.2 /tmp/contents728445206/deps/0/packages/node_modules/watchpack/node_modules/is-number/node_modules/kind-of
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT to-regex-range@2.1.1 /tmp/contents728445206/deps/0/packages/node_modules/to-regex-range
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT is-number@3.0.0 /tmp/contents728445206/deps/0/packages/node_modules/to-regex-range/node_modules/is-number
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT isobject@3.0.1 /tmp/contents728445206/deps/0/packages/node_modules/watchpack/node_modules/isobject
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT kind-of@6.0.2 /tmp/contents728445206/deps/0/packages/node_modules/watchpack/node_modules/kind-of
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT snapdragon@0.8.2 /tmp/contents728445206/deps/0/packages/node_modules/snapdragon
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT base@0.11.2 /tmp/contents728445206/deps/0/packages/node_modules/base
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT cache-base@1.0.1 /tmp/contents728445206/deps/0/packages/node_modules/cache-base
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT has-value@1.0.0 /tmp/contents728445206/deps/0/packages/node_modules/has-value
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT has-values@1.0.0 /tmp/contents728445206/deps/0/packages/node_modules/has-values
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT is-number@3.0.0 /tmp/contents728445206/deps/0/packages/node_modules/has-values/node_modules/is-number
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT kind-of@3.2.2 /tmp/contents728445206/deps/0/packages/node_modules/has-values/node_modules/is-number/node_modules/kind-of
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT kind-of@4.0.0 /tmp/contents728445206/deps/0/packages/node_modules/has-values/node_modules/kind-of
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT isobject@3.0.1 /tmp/contents728445206/deps/0/packages/node_modules/has-value/node_modules/isobject
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT isobject@3.0.1 /tmp/contents728445206/deps/0/packages/node_modules/cache-base/node_modules/isobject
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT set-value@2.0.0 /tmp/contents728445206/deps/0/packages/node_modules/set-value
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT extend-shallow@2.0.1 /tmp/contents728445206/deps/0/packages/node_modules/set-value/node_modules/extend-shallow
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT union-value@1.0.0 /tmp/contents728445206/deps/0/packages/node_modules/union-value
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT set-value@0.4.3 /tmp/contents728445206/deps/0/packages/node_modules/union-value/node_modules/set-value
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT extend-shallow@2.0.1 /tmp/contents728445206/deps/0/packages/node_modules/union-value/node_modules/extend-shallow
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT unset-value@1.0.0 /tmp/contents728445206/deps/0/packages/node_modules/unset-value
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT has-value@0.3.1 /tmp/contents728445206/deps/0/packages/node_modules/unset-value/node_modules/has-value
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT has-values@0.1.4 /tmp/contents728445206/deps/0/packages/node_modules/unset-value/node_modules/has-values
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT isobject@2.1.0 /tmp/contents728445206/deps/0/packages/node_modules/unset-value/node_modules/has-value/node_modules/isobject
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT isobject@3.0.1 /tmp/contents728445206/deps/0/packages/node_modules/unset-value/node_modules/isobject
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT class-utils@0.3.6 /tmp/contents728445206/deps/0/packages/node_modules/class-utils
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT define-property@0.2.5 /tmp/contents728445206/deps/0/packages/node_modules/class-utils/node_modules/define-property
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT is-descriptor@0.1.6 /tmp/contents728445206/deps/0/packages/node_modules/class-utils/node_modules/is-descriptor
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT is-accessor-descriptor@0.1.6 /tmp/contents728445206/deps/0/packages/node_modules/class-utils/node_modules/is-accessor-descriptor
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT kind-of@3.2.2 /tmp/contents728445206/deps/0/packages/node_modules/class-utils/node_modules/is-accessor-descriptor/node_modules/kind-of
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT is-data-descriptor@0.1.4 /tmp/contents728445206/deps/0/packages/node_modules/class-utils/node_modules/is-data-descriptor
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT kind-of@3.2.2 /tmp/contents728445206/deps/0/packages/node_modules/class-utils/node_modules/is-data-descriptor/node_modules/kind-of
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT kind-of@5.1.0 /tmp/contents728445206/deps/0/packages/node_modules/class-utils/node_modules/kind-of
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT isobject@3.0.1 /tmp/contents728445206/deps/0/packages/node_modules/class-utils/node_modules/isobject
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT static-extend@0.1.2 /tmp/contents728445206/deps/0/packages/node_modules/static-extend
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT define-property@0.2.5 /tmp/contents728445206/deps/0/packages/node_modules/static-extend/node_modules/define-property
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT is-descriptor@0.1.6 /tmp/contents728445206/deps/0/packages/node_modules/static-extend/node_modules/is-descriptor
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT is-accessor-descriptor@0.1.6 /tmp/contents728445206/deps/0/packages/node_modules/static-extend/node_modules/is-accessor-descriptor
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT kind-of@3.2.2 /tmp/contents728445206/deps/0/packages/node_modules/static-extend/node_modules/is-accessor-descriptor/node_modules/kind-of
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT is-data-descriptor@0.1.4 /tmp/contents728445206/deps/0/packages/node_modules/static-extend/node_modules/is-data-descriptor
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT kind-of@3.2.2 /tmp/contents728445206/deps/0/packages/node_modules/static-extend/node_modules/is-data-descriptor/node_modules/kind-of
+   2018-03-30T13:58:02.87+0530 [STG/0] OUT kind-of@5.1.0 /tmp/contents728445206/deps/0/packages/node_modules/static-extend/node_modules/kind-of
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT express@4.16.3 /tmp/contents728445206/deps/0/packages/node_modules/express
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT array-flatten@1.1.1 /tmp/contents728445206/deps/0/packages/node_modules/express/node_modules/array-flatten
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT body-parser@1.18.2 /tmp/contents728445206/deps/0/packages/node_modules/body-parser
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT qs@6.5.1 /tmp/contents728445206/deps/0/packages/node_modules/body-parser/node_modules/qs
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT qs@6.5.1 /tmp/contents728445206/deps/0/packages/node_modules/express/node_modules/qs
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT http-proxy-middleware@0.17.4 /tmp/contents728445206/deps/0/packages/node_modules/http-proxy-middleware
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT is-glob@3.1.0 /tmp/contents728445206/deps/0/packages/node_modules/http-proxy-middleware/node_modules/is-glob
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT is-extglob@2.1.1 /tmp/contents728445206/deps/0/packages/node_modules/http-proxy-middleware/node_modules/is-extglob
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT import-local@1.0.0 /tmp/contents728445206/deps/0/packages/node_modules/import-local
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT internal-ip@1.2.0 /tmp/contents728445206/deps/0/packages/node_modules/internal-ip
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT meow@3.7.0 /tmp/contents728445206/deps/0/packages/node_modules/meow
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT minimist@1.2.0 /tmp/contents728445206/deps/0/packages/node_modules/meow/node_modules/minimist
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT read-pkg-up@1.0.1 /tmp/contents728445206/deps/0/packages/node_modules/read-pkg-up
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT find-up@1.1.2 /tmp/contents728445206/deps/0/packages/node_modules/read-pkg-up/node_modules/find-up
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT path-exists@2.1.0 /tmp/contents728445206/deps/0/packages/node_modules/read-pkg-up/node_modules/path-exists
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT read-pkg@1.1.0 /tmp/contents728445206/deps/0/packages/node_modules/read-pkg
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT load-json-file@1.1.0 /tmp/contents728445206/deps/0/packages/node_modules/load-json-file
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT pify@2.3.0 /tmp/contents728445206/deps/0/packages/node_modules/load-json-file/node_modules/pify
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT path-type@1.1.0 /tmp/contents728445206/deps/0/packages/node_modules/read-pkg/node_modules/path-type
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT pify@2.3.0 /tmp/contents728445206/deps/0/packages/node_modules/read-pkg/node_modules/pify
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT sockjs-client@1.1.4 /tmp/contents728445206/deps/0/packages/node_modules/sockjs-client
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT faye-websocket@0.11.1 /tmp/contents728445206/deps/0/packages/node_modules/sockjs-client/node_modules/faye-websocket
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT url-parse@1.2.0 /tmp/contents728445206/deps/0/packages/node_modules/url-parse
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT querystringify@1.0.0 /tmp/contents728445206/deps/0/packages/node_modules/url-parse/node_modules/querystringify
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT supports-color@5.3.0 /tmp/contents728445206/deps/0/packages/node_modules/webpack-dev-server/node_modules/supports-color
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT has-flag@3.0.0 /tmp/contents728445206/deps/0/packages/node_modules/webpack-dev-server/node_modules/has-flag
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT yargs@6.6.0 /tmp/contents728445206/deps/0/packages/node_modules/webpack-dev-server/node_modules/yargs
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT camelcase@3.0.0 /tmp/contents728445206/deps/0/packages/node_modules/webpack-dev-server/node_modules/camelcase
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT y18n@3.2.1 /tmp/contents728445206/deps/0/packages/node_modules/webpack-dev-server/node_modules/y18n
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT yargs-parser@4.2.1 /tmp/contents728445206/deps/0/packages/node_modules/webpack-dev-server/node_modules/yargs-parser
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT JSONStream@1.3.2 /tmp/contents728445206/deps/0/packages/node_modules/JSONStream
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT deps-sort@2.0.0 /tmp/contents728445206/deps/0/packages/node_modules/deps-sort
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT shasum@1.0.2 /tmp/contents728445206/deps/0/packages/node_modules/shasum
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT json-stable-stringify@0.0.1 /tmp/contents728445206/deps/0/packages/node_modules/shasum/node_modules/json-stable-stringify
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT subarg@1.0.0 /tmp/contents728445206/deps/0/packages/node_modules/subarg
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT minimist@1.2.0 /tmp/contents728445206/deps/0/packages/node_modules/subarg/node_modules/minimist
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT browser-pack@6.0.4 /tmp/contents728445206/deps/0/packages/node_modules/browser-pack
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT combine-source-map@0.8.0 /tmp/contents728445206/deps/0/packages/node_modules/combine-source-map
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT convert-source-map@1.1.3 /tmp/contents728445206/deps/0/packages/node_modules/combine-source-map/node_modules/convert-source-map
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT umd@3.0.3 /tmp/contents728445206/deps/0/packages/node_modules/umd
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT image-size@0.5.5 /tmp/contents728445206/deps/0/packages/node_modules/image-size
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT in-publish@2.0.0 /tmp/contents728445206/deps/0/packages/node_modules/in-publish
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT sass-graph@2.2.4 /tmp/contents728445206/deps/0/packages/node_modules/sass-graph
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT scss-tokenizer@0.2.3 /tmp/contents728445206/deps/0/packages/node_modules/scss-tokenizer
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT source-map@0.4.4 /tmp/contents728445206/deps/0/packages/node_modules/scss-tokenizer/node_modules/source-map
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT yargs@7.1.0 /tmp/contents728445206/deps/0/packages/node_modules/yargs
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT camelcase@3.0.0 /tmp/contents728445206/deps/0/packages/node_modules/yargs/node_modules/camelcase
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT y18n@3.2.1 /tmp/contents728445206/deps/0/packages/node_modules/yargs/node_modules/y18n
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT yargs-parser@5.0.0 /tmp/contents728445206/deps/0/packages/node_modules/yargs-parser
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT camelcase@3.0.0 /tmp/contents728445206/deps/0/packages/node_modules/yargs-parser/node_modules/camelcase
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT typescript@2.5.3 /tmp/contents728445206/deps/0/packages/node_modules/typescript
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT browser-resolve@1.11.2 /tmp/contents728445206/deps/0/packages/node_modules/browser-resolve
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT resolve@1.1.7 /tmp/contents728445206/deps/0/packages/node_modules/browser-resolve/node_modules/resolve
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT amqplib@0.5.2 /tmp/contents728445206/deps/0/packages/node_modules/amqplib
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT readable-stream@1.1.14 /tmp/contents728445206/deps/0/packages/node_modules/amqplib/node_modules/readable-stream
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT isarray@0.0.1 /tmp/contents728445206/deps/0/packages/node_modules/amqplib/node_modules/isarray
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT string_decoder@0.10.31 /tmp/contents728445206/deps/0/packages/node_modules/amqplib/node_modules/string_decoder
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT bl@1.1.2 /tmp/contents728445206/deps/0/packages/node_modules/bl
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT readable-stream@2.0.6 /tmp/contents728445206/deps/0/packages/node_modules/bl/node_modules/readable-stream
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT process-nextick-args@1.0.7 /tmp/contents728445206/deps/0/packages/node_modules/bl/node_modules/process-nextick-args
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT string_decoder@0.10.31 /tmp/contents728445206/deps/0/packages/node_modules/bl/node_modules/string_decoder
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT blocking-proxy@0.0.5 /tmp/contents728445206/deps/0/packages/node_modules/blocking-proxy
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT minimist@1.2.0 /tmp/contents728445206/deps/0/packages/node_modules/blocking-proxy/node_modules/minimist
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT connect@3.6.6 /tmp/contents728445206/deps/0/packages/node_modules/connect
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT finalhandler@1.1.0 /tmp/contents728445206/deps/0/packages/node_modules/connect/node_modules/finalhandler
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT statuses@1.3.1 /tmp/contents728445206/deps/0/packages/node_modules/connect/node_modules/statuses
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT expand-braces@0.1.2 /tmp/contents728445206/deps/0/packages/node_modules/expand-braces
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT braces@0.1.5 /tmp/contents728445206/deps/0/packages/node_modules/expand-braces/node_modules/braces
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT expand-range@0.1.1 /tmp/contents728445206/deps/0/packages/node_modules/expand-braces/node_modules/expand-range
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT is-number@0.1.1 /tmp/contents728445206/deps/0/packages/node_modules/expand-braces/node_modules/is-number
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT repeat-string@0.2.2 /tmp/contents728445206/deps/0/packages/node_modules/expand-braces/node_modules/repeat-string
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT labeled-stream-splicer@2.0.1 /tmp/contents728445206/deps/0/packages/node_modules/labeled-stream-splicer
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT isarray@2.0.4 /tmp/contents728445206/deps/0/packages/node_modules/labeled-stream-splicer/node_modules/isarray
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT log4js@2.5.3 /tmp/contents728445206/deps/0/packages/node_modules/log4js
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT debug@3.1.0 /tmp/contents728445206/deps/0/packages/node_modules/log4js/node_modules/debug
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT streamroller@0.7.0 /tmp/contents728445206/deps/0/packages/node_modules/streamroller
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT debug@3.1.0 /tmp/contents728445206/deps/0/packages/node_modules/streamroller/node_modules/debug
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT mailgun-js@0.7.15 /tmp/contents728445206/deps/0/packages/node_modules/mailgun-js
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT async@2.1.5 /tmp/contents728445206/deps/0/packages/node_modules/mailgun-js/node_modules/async
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT debug@2.2.0 /tmp/contents728445206/deps/0/packages/node_modules/mailgun-js/node_modules/debug
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT ms@0.7.1 /tmp/contents728445206/deps/0/packages/node_modules/mailgun-js/node_modules/ms
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT path-proxy@1.0.0 /tmp/contents728445206/deps/0/packages/node_modules/path-proxy
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT inflection@1.3.8 /tmp/contents728445206/deps/0/packages/node_modules/path-proxy/node_modules/inflection
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT proxy-agent@2.0.0 /tmp/contents728445206/deps/0/packages/node_modules/proxy-agent
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT lru-cache@2.6.5 /tmp/contents728445206/deps/0/packages/node_modules/proxy-agent/node_modules/lru-cache
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT nodemailer@2.7.2 /tmp/contents728445206/deps/0/packages/node_modules/nodemailer
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT socks@1.1.9 /tmp/contents728445206/deps/0/packages/node_modules/nodemailer/node_modules/socks
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT selenium-webdriver@3.0.1 /tmp/contents728445206/deps/0/packages/node_modules/selenium-webdriver
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT tmp@0.0.30 /tmp/contents728445206/deps/0/packages/node_modules/selenium-webdriver/node_modules/tmp
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT xml2js@0.4.19 /tmp/contents728445206/deps/0/packages/node_modules/xml2js
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT sax@1.2.4 /tmp/contents728445206/deps/0/packages/node_modules/xml2js/node_modules/sax
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT true-case-path@1.0.2 /tmp/contents728445206/deps/0/packages/node_modules/true-case-path
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT glob@6.0.4 /tmp/contents728445206/deps/0/packages/node_modules/true-case-path/node_modules/glob
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT tsconfig@7.0.0 /tmp/contents728445206/deps/0/packages/node_modules/tsconfig
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT strip-bom@3.0.0 /tmp/contents728445206/deps/0/packages/node_modules/tsconfig/node_modules/strip-bom
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT webdriver-js-extender@1.0.0 /tmp/contents728445206/deps/0/packages/node_modules/webdriver-js-extender
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT selenium-webdriver@2.53.3 /tmp/contents728445206/deps/0/packages/node_modules/webdriver-js-extender/node_modules/selenium-webdriver
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT adm-zip@0.4.4 /tmp/contents728445206/deps/0/packages/node_modules/webdriver-js-extender/node_modules/adm-zip
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT tmp@0.0.24 /tmp/contents728445206/deps/0/packages/node_modules/webdriver-js-extender/node_modules/tmp
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT ws@1.1.5 /tmp/contents728445206/deps/0/packages/node_modules/webdriver-js-extender/node_modules/ws
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT ultron@1.0.2 /tmp/contents728445206/deps/0/packages/node_modules/webdriver-js-extender/node_modules/ultron
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT xml2js@0.4.4 /tmp/contents728445206/deps/0/packages/node_modules/webdriver-js-extender/node_modules/xml2js
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT sax@0.6.1 /tmp/contents728445206/deps/0/packages/node_modules/webdriver-js-extender/node_modules/sax
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT insert-module-globals@7.0.4 /tmp/contents728445206/deps/0/packages/node_modules/insert-module-globals
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT combine-source-map@0.7.2 /tmp/contents728445206/deps/0/packages/node_modules/insert-module-globals/node_modules/combine-source-map
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT convert-source-map@1.1.3 /tmp/contents728445206/deps/0/packages/node_modules/insert-module-globals/node_modules/convert-source-map
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT jasmine@2.99.0 /tmp/contents728445206/deps/0/packages/node_modules/jasmine
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT jasmine-core@2.99.1 /tmp/contents728445206/deps/0/packages/node_modules/jasmine/node_modules/jasmine-core
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT karma@2.0.0 /tmp/contents728445206/deps/0/packages/node_modules/karma
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT browserify@14.5.0 /tmp/contents728445206/deps/0/packages/node_modules/browserify
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT buffer@5.1.0 /tmp/contents728445206/deps/0/packages/node_modules/browserify/node_modules/buffer
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT concat-stream@1.5.2 /tmp/contents728445206/deps/0/packages/node_modules/browserify/node_modules/concat-stream
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT readable-stream@2.0.6 /tmp/contents728445206/deps/0/packages/node_modules/browserify/node_modules/concat-stream/node_modules/readable-stream
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT process-nextick-args@1.0.7 /tmp/contents728445206/deps/0/packages/node_modules/browserify/node_modules/process-nextick-args
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT string_decoder@0.10.31 /tmp/contents728445206/deps/0/packages/node_modules/browserify/node_modules/concat-stream/node_modules/string_decoder
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT domain-browser@1.1.7 /tmp/contents728445206/deps/0/packages/node_modules/browserify/node_modules/domain-browser
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT module-deps@4.1.1 /tmp/contents728445206/deps/0/packages/node_modules/module-deps
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT concat-stream@1.5.2 /tmp/contents728445206/deps/0/packages/node_modules/module-deps/node_modules/concat-stream
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT readable-stream@2.0.6 /tmp/contents728445206/deps/0/packages/node_modules/module-deps/node_modules/concat-stream/node_modules/readable-stream
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT process-nextick-args@1.0.7 /tmp/contents728445206/deps/0/packages/node_modules/module-deps/node_modules/process-nextick-args
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT string_decoder@0.10.31 /tmp/contents728445206/deps/0/packages/node_modules/module-deps/node_modules/string_decoder
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT punycode@1.4.1 /tmp/contents728445206/deps/0/packages/node_modules/browserify/node_modules/punycode
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT timers-browserify@1.4.2 /tmp/contents728445206/deps/0/packages/node_modules/browserify/node_modules/timers-browserify
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT source-map@0.6.1 /tmp/contents728445206/deps/0/packages/node_modules/karma/node_modules/source-map
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT loggly@1.1.1 /tmp/contents728445206/deps/0/packages/node_modules/loggly
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT request@2.75.0 /tmp/contents728445206/deps/0/packages/node_modules/loggly/node_modules/request
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT caseless@0.11.0 /tmp/contents728445206/deps/0/packages/node_modules/loggly/node_modules/caseless
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT form-data@2.0.0 /tmp/contents728445206/deps/0/packages/node_modules/loggly/node_modules/form-data
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT har-validator@2.0.6 /tmp/contents728445206/deps/0/packages/node_modules/loggly/node_modules/har-validator
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT chalk@1.1.3 /tmp/contents728445206/deps/0/packages/node_modules/loggly/node_modules/chalk
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT ansi-styles@2.2.1 /tmp/contents728445206/deps/0/packages/node_modules/loggly/node_modules/ansi-styles
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT supports-color@2.0.0 /tmp/contents728445206/deps/0/packages/node_modules/loggly/node_modules/supports-color
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT node-uuid@1.4.8 /tmp/contents728445206/deps/0/packages/node_modules/loggly/node_modules/node-uuid
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT qs@6.2.3 /tmp/contents728445206/deps/0/packages/node_modules/loggly/node_modules/qs
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT tunnel-agent@0.4.3 /tmp/contents728445206/deps/0/packages/node_modules/loggly/node_modules/tunnel-agent
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT ts-node@4.1.0 /tmp/contents728445206/deps/0/packages/node_modules/ts-node
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT chalk@2.3.2 /tmp/contents728445206/deps/0/packages/node_modules/ts-node/node_modules/chalk
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT supports-color@5.3.0 /tmp/contents728445206/deps/0/packages/node_modules/ts-node/node_modules/supports-color
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT has-flag@3.0.0 /tmp/contents728445206/deps/0/packages/node_modules/ts-node/node_modules/has-flag
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT minimist@1.2.0 /tmp/contents728445206/deps/0/packages/node_modules/ts-node/node_modules/minimist
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT source-map-support@0.5.4 /tmp/contents728445206/deps/0/packages/node_modules/ts-node/node_modules/source-map-support
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT source-map@0.6.1 /tmp/contents728445206/deps/0/packages/node_modules/ts-node/node_modules/source-map
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT tsickle@0.27.2 /tmp/contents728445206/deps/0/packages/node_modules/tsickle
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT minimist@1.2.0 /tmp/contents728445206/deps/0/packages/node_modules/tsickle/node_modules/minimist
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT source-map@0.6.1 /tmp/contents728445206/deps/0/packages/node_modules/tsickle/node_modules/source-map
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT source-map-support@0.5.4 /tmp/contents728445206/deps/0/packages/node_modules/tsickle/node_modules/source-map-support
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT tslint@5.9.1 /tmp/contents728445206/deps/0/packages/node_modules/tslint
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT chalk@2.3.2 /tmp/contents728445206/deps/0/packages/node_modules/tslint/node_modules/chalk
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT supports-color@5.3.0 /tmp/contents728445206/deps/0/packages/node_modules/tslint/node_modules/supports-color
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT has-flag@3.0.0 /tmp/contents728445206/deps/0/packages/node_modules/tslint/node_modules/has-flag
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT @angular/compiler-cli@5.2.9 /tmp/contents728445206/deps/0/packages/node_modules/@angular/compiler-cli
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT minimist@1.2.0 /tmp/contents728445206/deps/0/packages/node_modules/@angular/compiler-cli/node_modules/minimist
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT node-gyp@3.6.2 /tmp/contents728445206/deps/0/packages/node_modules/node-gyp
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT nopt@3.0.6 /tmp/contents728445206/deps/0/packages/node_modules/node-gyp/node_modules/nopt
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT semver@5.3.0 /tmp/contents728445206/deps/0/packages/node_modules/node-gyp/node_modules/semver
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT node-sass@4.8.3 /tmp/contents728445206/deps/0/packages/node_modules/node-sass
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT chalk@1.1.3 /tmp/contents728445206/deps/0/packages/node_modules/node-sass/node_modules/chalk
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT ansi-styles@2.2.1 /tmp/contents728445206/deps/0/packages/node_modules/node-sass/node_modules/ansi-styles
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT supports-color@2.0.0 /tmp/contents728445206/deps/0/packages/node_modules/node-sass/node_modules/supports-color
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT request@2.79.0 /tmp/contents728445206/deps/0/packages/node_modules/node-sass/node_modules/request
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT caseless@0.11.0 /tmp/contents728445206/deps/0/packages/node_modules/node-sass/node_modules/caseless
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT har-validator@2.0.6 /tmp/contents728445206/deps/0/packages/node_modules/node-sass/node_modules/har-validator
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT qs@6.3.2 /tmp/contents728445206/deps/0/packages/node_modules/node-sass/node_modules/qs
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT tunnel-agent@0.4.3 /tmp/contents728445206/deps/0/packages/node_modules/node-sass/node_modules/tunnel-agent
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT protractor@5.1.2 /tmp/contents728445206/deps/0/packages/node_modules/protractor
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT chalk@1.1.3 /tmp/contents728445206/deps/0/packages/node_modules/protractor/node_modules/chalk
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT ansi-styles@2.2.1 /tmp/contents728445206/deps/0/packages/node_modules/protractor/node_modules/ansi-styles
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT supports-color@2.0.0 /tmp/contents728445206/deps/0/packages/node_modules/protractor/node_modules/supports-color
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT webdriver-manager@12.0.6 /tmp/contents728445206/deps/0/packages/node_modules/protractor/node_modules/webdriver-manager
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT del@2.2.2 /tmp/contents728445206/deps/0/packages/node_modules/protractor/node_modules/del
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT globby@5.0.0 /tmp/contents728445206/deps/0/packages/node_modules/protractor/node_modules/globby
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT pify@2.3.0 /tmp/contents728445206/deps/0/packages/node_modules/protractor/node_modules/pify
+   2018-03-30T13:58:02.88+0530 [STG/0] OUT minimist@1.2.0 /tmp/contents728445206/deps/0/packages/node_modules/protractor/node_modules/minimist
+   2018-03-30T13:58:02.89+0530 [STG/0] OUT        Installing any new modules (package.json + package-lock.json)
+   2018-03-30T13:58:14.26+0530 [STG/0] OUT up to date in 10.75s
+   2018-03-30T13:58:18.34+0530 [STG/0] OUT -----> Running go build finalize
+   2018-03-30T13:58:52.17+0530 [STG/0] OUT Exit status 0
+   2018-03-30T13:58:52.17+0530 [STG/0] OUT Uploading droplet, build artifacts cache...
+   2018-03-30T13:58:52.17+0530 [STG/0] OUT Uploading build artifacts cache...
+   2018-03-30T13:58:52.17+0530 [STG/0] OUT Uploading droplet...
+   2018-03-30T13:58:52.76+0530 [STG/0] OUT Uploaded build artifacts cache (18.1M)
+   2018-03-30T13:58:53.73+0530 [API/12] OUT Creating droplet for app with guid 8dc88bc5-b372-4158-b221-f82740f888ae
+   2018-03-30T13:58:59.97+0530 [STG/0] OUT Uploaded droplet (76.4M)
+   2018-03-30T13:59:00.00+0530 [STG/0] OUT Uploading complete
+   2018-03-30T13:59:00.03+0530 [STG/0] OUT Cell a32a5e3a-75de-4118-9041-9e2be7c61855 stopping instance f5ad2017-e157-42c6-ae69-a47a62ccf46e
+   2018-03-30T13:59:00.03+0530 [STG/0] OUT Cell a32a5e3a-75de-4118-9041-9e2be7c61855 destroying container for instance f5ad2017-e157-42c6-ae69-a47a62ccf46e
+   2018-03-30T13:59:00.59+0530 [CELL/0] OUT Cell e9fa9dcc-6c6e-4cd4-97cd-5781aa4c64e6 creating container for instance 90df9553-e8c7-448b-435b-40a5
+   2018-03-30T13:59:00.97+0530 [CELL/0] OUT Cell e9fa9dcc-6c6e-4cd4-97cd-5781aa4c64e6 successfully created container for instance 90df9553-e8c7-448b-435b-40a5
+   2018-03-30T13:59:04.66+0530 [STG/0] OUT Cell a32a5e3a-75de-4118-9041-9e2be7c61855 successfully destroyed container for instance f5ad2017-e157-42c6-ae69-a47a62ccf46e
+   2018-03-30T13:59:09.75+0530 [CELL/0] OUT Starting health monitoring of container
+   2018-03-30T13:59:13.40+0530 [APP/PROC/WEB/0] OUT ** NG Live Development Server is listening on localhost:8080, open your browser on http://localhost:8080/ **
+   2018-03-30T13:59:26.26+0530 [APP/PROC/WEB/0] OUT Date: 2018-03-30T08:29:26.263Z
+   2018-03-30T13:59:26.26+0530 [APP/PROC/WEB/0] OUT Hash: 51575849254be44a3222
+   2018-03-30T13:59:26.26+0530 [APP/PROC/WEB/0] OUT Time: 12810ms
+   2018-03-30T13:59:26.26+0530 [APP/PROC/WEB/0] OUT chunk {inline} inline.bundle.js (inline) 3.85 kB [entry] [rendered]
+   2018-03-30T13:59:26.26+0530 [APP/PROC/WEB/0] OUT chunk {main} main.bundle.js (main) 63.1 kB [initial] [rendered]
+   2018-03-30T13:59:26.26+0530 [APP/PROC/WEB/0] OUT chunk {polyfills} polyfills.bundle.js (polyfills) 549 kB [initial] [rendered]
+   2018-03-30T13:59:26.26+0530 [APP/PROC/WEB/0] OUT chunk {styles} styles.bundle.js (styles) 41.8 kB [initial] [rendered]
+   2018-03-30T13:59:26.26+0530 [APP/PROC/WEB/0] OUT chunk {vendor} vendor.bundle.js (vendor) 9.5 MB [initial] [rendered]
+   2018-03-30T13:59:26.34+0530 [APP/PROC/WEB/0] OUT webpack: Compiled successfully.
+   2018-03-30T14:00:10.14+0530 [CELL/SSHD/0] OUT Exit status 0
+   2018-03-30T14:00:10.18+0530 [CELL/0] OUT Cell e9fa9dcc-6c6e-4cd4-97cd-5781aa4c64e6 stopping instance 90df9553-e8c7-448b-435b-40a5
+   2018-03-30T14:00:10.18+0530 [CELL/0] OUT Cell e9fa9dcc-6c6e-4cd4-97cd-5781aa4c64e6 destroying container for instance 90df9553-e8c7-448b-435b-40a5
+   2018-03-30T14:00:10.19+0530 [API/6] OUT Process has crashed with type: "web"
+   2018-03-30T14:00:10.23+0530 [API/6] OUT App instance exited with guid 8dc88bc5-b372-4158-b221-f82740f888ae payload: {"instance"=>"90df9553-e8c7-448b-435b-40a5", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"Instance never healthy after 1m0s: Failed to make TCP connection to port 8080: connection refused", "crash_count"=>1, "crash_timestamp"=>1522398610181814528, "version"=>"2950277a-65cb-4bf7-9b56-3f00e00c27eb"}
+   2018-03-30T14:00:10.39+0530 [CELL/0] OUT Cell c67e85a5-9881-4449-9d40-fd0f4dcb9885 creating container for instance c528cf7d-2e01-4e6a-4602-67e8
+   2018-03-30T14:00:11.05+0530 [CELL/0] OUT Cell c67e85a5-9881-4449-9d40-fd0f4dcb9885 successfully created container for instance c528cf7d-2e01-4e6a-4602-67e8
+   2018-03-30T14:00:12.24+0530 [CELL/0] OUT Cell e9fa9dcc-6c6e-4cd4-97cd-5781aa4c64e6 successfully destroyed container for instance 90df9553-e8c7-448b-435b-40a5
+   2018-03-30T14:00:21.31+0530 [CELL/0] OUT Starting health monitoring of container
+   2018-03-30T14:00:25.15+0530 [APP/PROC/WEB/0] OUT ** NG Live Development Server is listening on localhost:8080, open your browser on http://localhost:8080/ **
+   2018-03-30T14:01:21.60+0530 [HEALTH/0] ERR Failed to make TCP connection to port 8080: connection refused
+   2018-03-30T14:01:21.60+0530 [CELL/0] ERR Timed out after 1m0s: health check never passed.
+   2018-03-30T14:01:21.60+0530 [CELL/SSHD/0] OUT Exit status 0
+   2018-03-30T14:01:21.66+0530 [APP/PROC/WEB/0] OUT Exit status 143
+   2018-03-30T14:01:21.70+0530 [CELL/0] OUT Cell c67e85a5-9881-4449-9d40-fd0f4dcb9885 stopping instance c528cf7d-2e01-4e6a-4602-67e8
+   2018-03-30T14:01:21.70+0530 [CELL/0] OUT Cell c67e85a5-9881-4449-9d40-fd0f4dcb9885 destroying container for instance c528cf7d-2e01-4e6a-4602-67e8
+   2018-03-30T14:01:21.71+0530 [API/10] OUT Process has crashed with type: "web"
+   2018-03-30T14:01:21.75+0530 [API/10] OUT App instance exited with guid 8dc88bc5-b372-4158-b221-f82740f888ae payload: {"instance"=>"c528cf7d-2e01-4e6a-4602-67e8", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"Instance never healthy after 1m0s: Failed to make TCP connection to port 8080: connection refused", "crash_count"=>2, "crash_timestamp"=>1522398681670370984, "version"=>"2950277a-65cb-4bf7-9b56-3f00e00c27eb"}
+   2018-03-30T14:01:22.30+0530 [CELL/0] OUT Cell e9fa9dcc-6c6e-4cd4-97cd-5781aa4c64e6 successfully created container for instance 64eb6c89-1fe8-42ae-554b-6da0
+   2018-03-30T14:01:24.07+0530 [CELL/0] OUT Cell c67e85a5-9881-4449-9d40-fd0f4dcb9885 successfully destroyed container for instance c528cf7d-2e01-4e6a-4602-67e8
+   2018-03-30T14:01:25.60+0530 [CELL/0] OUT Starting health monitoring of container
+   2018-03-30T14:01:28.84+0530 [APP/PROC/WEB/0] OUT ** NG Live Development Server is listening on localhost:8080, open your browser on http://localhost:8080/ **
+   2018-03-30T14:01:39.28+0530 [APP/PROC/WEB/0] OUT Hash: 51575849254be44a3222
+   2018-03-30T14:01:39.28+0530 [APP/PROC/WEB/0] OUT Time: 10397ms
+   2018-03-30T14:01:39.28+0530 [APP/PROC/WEB/0] OUT chunk {inline} inline.bundle.js (inline) 3.85 kB [entry] [rendered]
+   2018-03-30T14:01:39.28+0530 [APP/PROC/WEB/0] OUT chunk {main} main.bundle.js (main) 63.1 kB [initial] [rendered]
+   2018-03-30T14:01:39.28+0530 [APP/PROC/WEB/0] OUT chunk {polyfills} polyfills.bundle.js (polyfills) 549 kB [initial] [rendered]
+   2018-03-30T14:01:39.28+0530 [APP/PROC/WEB/0] OUT chunk {styles} styles.bundle.js (styles) 41.8 kB [initial] [rendered]
+   2018-03-30T14:01:39.28+0530 [APP/PROC/WEB/0] OUT chunk {vendor} vendor.bundle.js (vendor) 9.5 MB [initial] [rendered]
+   2018-03-30T14:01:39.34+0530 [APP/PROC/WEB/0] OUT webpack: Compiled successfully.
+   2018-03-30T14:02:25.96+0530 [CELL/0] ERR Timed out after 1m0s: health check never passed.
+   2018-03-30T14:02:25.97+0530 [CELL/SSHD/0] OUT Exit status 0
+   2018-03-30T14:02:26.00+0530 [APP/PROC/WEB/0] OUT Exit status 143
+   2018-03-30T14:02:26.02+0530 [CELL/0] OUT Cell e9fa9dcc-6c6e-4cd4-97cd-5781aa4c64e6 stopping instance 64eb6c89-1fe8-42ae-554b-6da0
+   2018-03-30T14:02:26.02+0530 [CELL/0] OUT Cell e9fa9dcc-6c6e-4cd4-97cd-5781aa4c64e6 destroying container for instance 64eb6c89-1fe8-42ae-554b-6da0
+   2018-03-30T14:03:21.00+0530 [CELL/0] OUT Cell 19d46483-06ef-48f9-b173-a26f8b9a4b8e creating container for instance 76e1fea2-3421-48f0-576f-4bf0
+   2018-03-30T14:03:21.42+0530 [CELL/0] OUT Cell 19d46483-06ef-48f9-b173-a26f8b9a4b8e successfully created container for instance 76e1fea2-3421-48f0-576f-4bf0
+   2018-03-30T14:03:31.48+0530 [CELL/0] OUT Starting health monitoring of container
+   2018-03-30T14:03:35.16+0530 [APP/PROC/WEB/0] OUT ** NG Live Development Server is listening on localhost:8080, open your browser on http://localhost:8080/ **
+   2018-03-30T14:03:49.90+0530 [APP/PROC/WEB/0] OUT Date: 2018-03-30T08:33:49.900Z
+   2018-03-30T14:03:49.90+0530 [APP/PROC/WEB/0] OUT Hash: 51575849254be44a3222
+   2018-03-30T14:03:49.90+0530 [APP/PROC/WEB/0] OUT Time: 14688ms
+   2018-03-30T14:03:49.90+0530 [APP/PROC/WEB/0] OUT chunk {inline} inline.bundle.js (inline) 3.85 kB [entry] [rendered]
+   2018-03-30T14:03:49.90+0530 [APP/PROC/WEB/0] OUT chunk {main} main.bundle.js (main) 63.1 kB [initial] [rendered]
+   2018-03-30T14:03:49.90+0530 [APP/PROC/WEB/0] OUT chunk {polyfills} polyfills.bundle.js (polyfills) 549 kB [initial] [rendered]
+   2018-03-30T14:03:49.90+0530 [APP/PROC/WEB/0] OUT chunk {styles} styles.bundle.js (styles) 41.8 kB [initial] [rendered]
+   2018-03-30T14:03:49.90+0530 [APP/PROC/WEB/0] OUT chunk {vendor} vendor.bundle.js (vendor) 9.5 MB [initial] [rendered]
+   2018-03-30T14:03:49.97+0530 [APP/PROC/WEB/0] OUT webpack: Compiled successfully.
+   2018-03-30T14:04:31.79+0530 [CELL/0] ERR Timed out after 1m0s: health check never passed.
+   2018-03-30T14:04:31.80+0530 [CELL/SSHD/0] OUT Exit status 0
+   2018-03-30T14:04:31.85+0530 [APP/PROC/WEB/0] OUT Exit status 143
+   2018-03-30T14:04:31.87+0530 [CELL/0] OUT Cell 19d46483-06ef-48f9-b173-a26f8b9a4b8e stopping instance 76e1fea2-3421-48f0-576f-4bf0
+   2018-03-30T14:04:31.87+0530 [CELL/0] OUT Cell 19d46483-06ef-48f9-b173-a26f8b9a4b8e destroying container for instance 76e1fea2-3421-48f0-576f-4bf0
+   2018-03-30T14:04:31.89+0530 [API/12] OUT Process has crashed with type: "web"
+   2018-03-30T14:04:34.50+0530 [CELL/0] OUT Cell 19d46483-06ef-48f9-b173-a26f8b9a4b8e successfully destroyed container for instance 76e1fea2-3421-48f0-576f-4bf0
+   2018-03-30T14:05:43.64+0530 [API/2] OUT Stopping app with guid 8dc88bc5-b372-4158-b221-f82740f888ae
+   2018-03-30T14:05:48.05+0530 [API/5] OUT Starting app with guid 8dc88bc5-b372-4158-b221-f82740f888ae
+   2018-03-30T14:05:48.52+0530 [CELL/0] OUT Cell e9fa9dcc-6c6e-4cd4-97cd-5781aa4c64e6 creating container for instance 83e3845f-cca9-4985-5bbc-e179
+   2018-03-30T14:05:49.02+0530 [CELL/0] OUT Cell e9fa9dcc-6c6e-4cd4-97cd-5781aa4c64e6 successfully created container for instance 83e3845f-cca9-4985-5bbc-e179
+   2018-03-30T14:06:21.57+0530 [APP/PROC/WEB/0] OUT Date: 2018-03-30T08:36:21.569Z
+   2018-03-30T14:06:21.57+0530 [APP/PROC/WEB/0] OUT Hash: 51575849254be44a3222
+   2018-03-30T14:06:21.57+0530 [APP/PROC/WEB/0] OUT Time: 16560ms
+   2018-03-30T14:06:21.57+0530 [APP/PROC/WEB/0] OUT chunk {inline} inline.bundle.js (inline) 3.85 kB [entry] [rendered]
+   2018-03-30T14:06:21.57+0530 [APP/PROC/WEB/0] OUT chunk {main} main.bundle.js (main) 63.1 kB [initial] [rendered]
+   2018-03-30T14:06:21.57+0530 [APP/PROC/WEB/0] OUT chunk {polyfills} polyfills.bundle.js (polyfills) 549 kB [initial] [rendered]
+   2018-03-30T14:06:21.57+0530 [APP/PROC/WEB/0] OUT chunk {styles} styles.bundle.js (styles) 41.8 kB [initial] [rendered]
+   2018-03-30T14:06:21.57+0530 [APP/PROC/WEB/0] OUT chunk {vendor} vendor.bundle.js (vendor) 9.5 MB [initial] [rendered]
+   2018-03-30T14:06:21.64+0530 [APP/PROC/WEB/0] OUT webpack: Compiled successfully.
+   2018-03-30T14:07:00.27+0530 [CELL/0] ERR Timed out after 1m0s: health check never passed.
+   2018-03-30T14:07:00.28+0530 [CELL/SSHD/0] OUT Exit status 0
+   2018-03-30T14:07:00.33+0530 [APP/PROC/WEB/0] OUT Exit status 143
+   2018-03-30T14:07:00.37+0530 [CELL/0] OUT Cell e9fa9dcc-6c6e-4cd4-97cd-5781aa4c64e6 stopping instance 83e3845f-cca9-4985-5bbc-e179
+   2018-03-30T14:07:00.37+0530 [CELL/0] OUT Cell e9fa9dcc-6c6e-4cd4-97cd-5781aa4c64e6 destroying container for instance 83e3845f-cca9-4985-5bbc-e179
+   2018-03-30T14:07:00.37+0530 [API/2] OUT Process has crashed with type: "web"
+   2018-03-30T14:07:00.40+0530 [API/2] OUT App instance exited with guid 8dc88bc5-b372-4158-b221-f82740f888ae payload: {"instance"=>"83e3845f-cca9-4985-5bbc-e179", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"Instance never healthy after 1m0s: Failed to make TCP connection to port 8080: connection refused", "crash_count"=>1, "crash_timestamp"=>1522399020349387813, "version"=>"040cdbeb-6067-4ad9-a264-e4ccded12c90"}
+   2018-03-30T14:07:01.10+0530 [CELL/0] OUT Cell c67e85a5-9881-4449-9d40-fd0f4dcb9885 successfully created container for instance 65a84285-001d-4486-527f-6ad5
+   2018-03-30T14:07:13.10+0530 [CELL/0] OUT Starting health monitoring of container
+   2018-03-30T14:07:34.14+0530 [APP/PROC/WEB/0] OUT Date: 2018-03-30T08:37:34.148Z
+   2018-03-30T14:07:34.14+0530 [APP/PROC/WEB/0] OUT Hash: 51575849254be44a3222
+   2018-03-30T14:07:34.14+0530 [APP/PROC/WEB/0] OUT Time: 16255ms
+   2018-03-30T14:07:34.14+0530 [APP/PROC/WEB/0] OUT chunk {inline} inline.bundle.js (inline) 3.85 kB [entry] [rendered]
+   2018-03-30T14:07:34.15+0530 [APP/PROC/WEB/0] OUT chunk {main} main.bundle.js (main) 63.1 kB [initial] [rendered]
+   2018-03-30T14:07:34.15+0530 [APP/PROC/WEB/0] OUT chunk {polyfills} polyfills.bundle.js (polyfills) 549 kB [initial] [rendered]
+   2018-03-30T14:07:34.15+0530 [APP/PROC/WEB/0] OUT chunk {styles} styles.bundle.js (styles) 41.8 kB [initial] [rendered]
+   2018-03-30T14:07:34.15+0530 [APP/PROC/WEB/0] OUT chunk {vendor} vendor.bundle.js (vendor) 9.5 MB [initial] [rendered]
+   2018-03-30T14:07:34.26+0530 [APP/PROC/WEB/0] OUT webpack: Compiled successfully.
+   2018-03-30T14:08:04.76+0530 [API/1] OUT Updated app with guid 8dc88bc5-b372-4158-b221-f82740f888ae ({"buildpack"=>"https://github.com/cloudfoundry/nodejs-buildpack", "command"=>"PRIVATE DATA HIDDEN", "disk_quota"=>1024, "health_check_http_endpoint"=>"", "health_check_type"=>"port", "instances"=>1, "memory"=>1024, "name"=>"angular4-demo"})
+   2018-03-30T14:08:13.60+0530 [HEALTH/0] ERR Failed to make TCP connection to port 8080: connection refused
+   2018-03-30T14:08:13.60+0530 [CELL/0] ERR Timed out after 1m0s: health check never passed.
+   2018-03-30T14:08:13.65+0530 [CELL/SSHD/0] OUT Exit status 0
+   2018-03-30T14:08:13.68+0530 [APP/PROC/WEB/0] OUT Exit status 143
+   2018-03-30T14:08:13.71+0530 [API/19] OUT Process has crashed with type: "web"
+   2018-03-30T14:08:13.71+0530 [CELL/0] OUT Cell c67e85a5-9881-4449-9d40-fd0f4dcb9885 stopping instance 65a84285-001d-4486-527f-6ad5
+   2018-03-30T14:08:13.71+0530 [CELL/0] OUT Cell c67e85a5-9881-4449-9d40-fd0f4dcb9885 destroying container for instance 65a84285-001d-4486-527f-6ad5
+   2018-03-30T14:08:13.72+0530 [API/19] OUT App instance exited with guid 8dc88bc5-b372-4158-b221-f82740f888ae payload: {"instance"=>"65a84285-001d-4486-527f-6ad5", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"Instance never healthy after 1m0s: Failed to make TCP connection to port 8080: connection refused", "crash_count"=>2, "crash_timestamp"=>1522399093682554442, "version"=>"040cdbeb-6067-4ad9-a264-e4ccded12c90"}
+   2018-03-30T14:08:14.59+0530 [CELL/0] OUT Cell f237c36d-0a62-4579-a51b-b11ee1d58145 creating container for instance 6012140a-fc53-48ad-64c1-8b2d
+   2018-03-30T14:08:14.89+0530 [CELL/0] OUT Cell f237c36d-0a62-4579-a51b-b11ee1d58145 successfully created container for instance 6012140a-fc53-48ad-64c1-8b2d
+   2018-03-30T14:08:16.46+0530 [CELL/0] OUT Cell c67e85a5-9881-4449-9d40-fd0f4dcb9885 successfully destroyed container for instance 65a84285-001d-4486-527f-6ad5
+   2018-03-30T14:08:21.76+0530 [CELL/0] OUT Starting health monitoring of container
+   2018-03-30T14:08:24.79+0530 [APP/PROC/WEB/0] OUT ** NG Live Development Server is listening on localhost:8080, open your browser on http://localhost:8080/ **
+   2018-03-30T14:08:34.10+0530 [APP/PROC/WEB/0] OUT Date: 2018-03-30T08:38:34.107Z
+   2018-03-30T14:08:34.10+0530 [APP/PROC/WEB/0] OUT Hash: 51575849254be44a3222
+   2018-03-30T14:08:34.10+0530 [APP/PROC/WEB/0] OUT Time: 9280ms
+   2018-03-30T14:08:34.10+0530 [APP/PROC/WEB/0] OUT chunk {inline} inline.bundle.js (inline) 3.85 kB [entry] [rendered]
+   2018-03-30T14:08:34.10+0530 [APP/PROC/WEB/0] OUT chunk {main} main.bundle.js (main) 63.1 kB [initial] [rendered]
+   2018-03-30T14:08:34.10+0530 [APP/PROC/WEB/0] OUT chunk {polyfills} polyfills.bundle.js (polyfills) 549 kB [initial] [rendered]
+   2018-03-30T14:08:34.10+0530 [APP/PROC/WEB/0] OUT chunk {styles} styles.bundle.js (styles) 41.8 kB [initial] [rendered]
+   2018-03-30T14:08:34.10+0530 [APP/PROC/WEB/0] OUT chunk {vendor} vendor.bundle.js (vendor) 9.5 MB [initial] [rendered]
+   2018-03-30T14:08:34.17+0530 [APP/PROC/WEB/0] OUT webpack: Compiled successfully.
+   2018-03-30T14:09:21.96+0530 [API/3] OUT Uploading bits for app with guid 8dc88bc5-b372-4158-b221-f82740f888ae
+   2018-03-30T14:09:22.02+0530 [HEALTH/0] ERR Failed to make TCP connection to port 8080: connection refused
+   2018-03-30T14:09:22.02+0530 [CELL/0] ERR Timed out after 1m0s: health check never passed.
+   2018-03-30T14:09:22.03+0530 [CELL/SSHD/0] OUT Exit status 0
+   2018-03-30T14:09:22.06+0530 [APP/PROC/WEB/0] OUT Exit status 143
+   2018-03-30T14:09:22.09+0530 [CELL/0] OUT Cell f237c36d-0a62-4579-a51b-b11ee1d58145 stopping instance 6012140a-fc53-48ad-64c1-8b2d
+   2018-03-30T14:09:22.09+0530 [CELL/0] OUT Cell f237c36d-0a62-4579-a51b-b11ee1d58145 destroying container for instance 6012140a-fc53-48ad-64c1-8b2d
+   2018-03-30T14:09:22.10+0530 [API/12] OUT Process has crashed with type: "web"
+   2018-03-30T14:09:22.12+0530 [API/12] OUT App instance exited with guid 8dc88bc5-b372-4158-b221-f82740f888ae payload: {"instance"=>"6012140a-fc53-48ad-64c1-8b2d", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"Instance never healthy after 1m0s: Failed to make TCP connection to port 8080: connection refused", "crash_count"=>1, "crash_timestamp"=>1522399162069265589, "version"=>"d64c3703-940e-494f-bd15-377c6c9e394a"}
+   2018-03-30T14:09:22.28+0530 [CELL/0] OUT Cell c67e85a5-9881-4449-9d40-fd0f4dcb9885 creating container for instance c1e1c7ed-2f32-4893-50ca-47f6
+   2018-03-30T14:09:22.99+0530 [CELL/0] OUT Cell c67e85a5-9881-4449-9d40-fd0f4dcb9885 successfully created container for instance c1e1c7ed-2f32-4893-50ca-47f6
+   2018-03-30T14:09:32.19+0530 [CELL/0] OUT Starting health monitoring of container
+   2018-03-30T14:09:36.29+0530 [APP/PROC/WEB/0] OUT ** NG Live Development Server is listening on localhost:8080, open your browser on http://localhost:8080/ **
+   2018-03-30T14:09:48.13+0530 [APP/PROC/WEB/0] OUT Date: 2018-03-30T08:39:48.138Z
+   2018-03-30T14:09:48.13+0530 [APP/PROC/WEB/0] OUT Hash: 51575849254be44a3222
+   2018-03-30T14:09:48.13+0530 [APP/PROC/WEB/0] OUT Time: 11784ms
+   2018-03-30T14:09:48.13+0530 [APP/PROC/WEB/0] OUT chunk {inline} inline.bundle.js (inline) 3.85 kB [entry] [rendered]
+   2018-03-30T14:09:48.13+0530 [APP/PROC/WEB/0] OUT chunk {main} main.bundle.js (main) 63.1 kB [initial] [rendered]
+   2018-03-30T14:09:48.13+0530 [APP/PROC/WEB/0] OUT chunk {polyfills} polyfills.bundle.js (polyfills) 549 kB [initial] [rendered]
+   2018-03-30T14:09:48.13+0530 [APP/PROC/WEB/0] OUT chunk {styles} styles.bundle.js (styles) 41.8 kB [initial] [rendered]
+   2018-03-30T14:09:48.13+0530 [APP/PROC/WEB/0] OUT chunk {vendor} vendor.bundle.js (vendor) 9.5 MB [initial] [rendered]
+   2018-03-30T14:09:48.24+0530 [APP/PROC/WEB/0] OUT webpack: Compiled successfully.
+   2018-03-30T14:10:05.71+0530 [API/17] OUT Updated app with guid 8dc88bc5-b372-4158-b221-f82740f888ae ({"state"=>"STOPPED"})
+   2018-03-30T14:10:05.72+0530 [CELL/0] OUT Cell c67e85a5-9881-4449-9d40-fd0f4dcb9885 stopping instance c1e1c7ed-2f32-4893-50ca-47f6
+   2018-03-30T14:10:05.73+0530 [CELL/SSHD/0] OUT Exit status 0
+   2018-03-30T14:10:05.77+0530 [APP/PROC/WEB/0] OUT Exit status 143
+   2018-03-30T14:10:05.83+0530 [CELL/0] OUT Cell c67e85a5-9881-4449-9d40-fd0f4dcb9885 destroying container for instance c1e1c7ed-2f32-4893-50ca-47f6
+   2018-03-30T14:10:07.74+0530 [API/3] OUT Creating build for app with guid 8dc88bc5-b372-4158-b221-f82740f888ae
+   2018-03-30T14:10:07.85+0530 [CELL/0] OUT Cell c67e85a5-9881-4449-9d40-fd0f4dcb9885 successfully destroyed container for instance c1e1c7ed-2f32-4893-50ca-47f6
+   2018-03-30T14:10:08.26+0530 [API/3] OUT Updated app with guid 8dc88bc5-b372-4158-b221-f82740f888ae ({"state"=>"STARTED"})
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT is-glob@3.1.0 /tmp/contents668834018/deps/0/packages/node_modules/http-proxy-middleware/node_modules/is-glob
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT is-extglob@2.1.1 /tmp/contents668834018/deps/0/packages/node_modules/http-proxy-middleware/node_modules/is-extglob
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT import-local@1.0.0 /tmp/contents668834018/deps/0/packages/node_modules/import-local
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT internal-ip@1.2.0 /tmp/contents668834018/deps/0/packages/node_modules/internal-ip
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT meow@3.7.0 /tmp/contents668834018/deps/0/packages/node_modules/meow
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT minimist@1.2.0 /tmp/contents668834018/deps/0/packages/node_modules/meow/node_modules/minimist
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT read-pkg-up@1.0.1 /tmp/contents668834018/deps/0/packages/node_modules/read-pkg-up
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT find-up@1.1.2 /tmp/contents668834018/deps/0/packages/node_modules/read-pkg-up/node_modules/find-up
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT path-exists@2.1.0 /tmp/contents668834018/deps/0/packages/node_modules/read-pkg-up/node_modules/path-exists
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT read-pkg@1.1.0 /tmp/contents668834018/deps/0/packages/node_modules/read-pkg
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT load-json-file@1.1.0 /tmp/contents668834018/deps/0/packages/node_modules/load-json-file
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT pify@2.3.0 /tmp/contents668834018/deps/0/packages/node_modules/load-json-file/node_modules/pify
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT path-type@1.1.0 /tmp/contents668834018/deps/0/packages/node_modules/read-pkg/node_modules/path-type
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT pify@2.3.0 /tmp/contents668834018/deps/0/packages/node_modules/read-pkg/node_modules/pify
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT sockjs-client@1.1.4 /tmp/contents668834018/deps/0/packages/node_modules/sockjs-client
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT faye-websocket@0.11.1 /tmp/contents668834018/deps/0/packages/node_modules/sockjs-client/node_modules/faye-websocket
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT url-parse@1.2.0 /tmp/contents668834018/deps/0/packages/node_modules/url-parse
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT querystringify@1.0.0 /tmp/contents668834018/deps/0/packages/node_modules/url-parse/node_modules/querystringify
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT supports-color@5.3.0 /tmp/contents668834018/deps/0/packages/node_modules/webpack-dev-server/node_modules/supports-color
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT has-flag@3.0.0 /tmp/contents668834018/deps/0/packages/node_modules/webpack-dev-server/node_modules/has-flag
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT yargs@6.6.0 /tmp/contents668834018/deps/0/packages/node_modules/webpack-dev-server/node_modules/yargs
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT camelcase@3.0.0 /tmp/contents668834018/deps/0/packages/node_modules/webpack-dev-server/node_modules/camelcase
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT y18n@3.2.1 /tmp/contents668834018/deps/0/packages/node_modules/webpack-dev-server/node_modules/y18n
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT yargs-parser@4.2.1 /tmp/contents668834018/deps/0/packages/node_modules/webpack-dev-server/node_modules/yargs-parser
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT image-size@0.5.5 /tmp/contents668834018/deps/0/packages/node_modules/image-size
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT in-publish@2.0.0 /tmp/contents668834018/deps/0/packages/node_modules/in-publish
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT sass-graph@2.2.4 /tmp/contents668834018/deps/0/packages/node_modules/sass-graph
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT scss-tokenizer@0.2.3 /tmp/contents668834018/deps/0/packages/node_modules/scss-tokenizer
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT source-map@0.4.4 /tmp/contents668834018/deps/0/packages/node_modules/scss-tokenizer/node_modules/source-map
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT yargs@7.1.0 /tmp/contents668834018/deps/0/packages/node_modules/yargs
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT camelcase@3.0.0 /tmp/contents668834018/deps/0/packages/node_modules/yargs/node_modules/camelcase
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT y18n@3.2.1 /tmp/contents668834018/deps/0/packages/node_modules/yargs/node_modules/y18n
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT yargs-parser@5.0.0 /tmp/contents668834018/deps/0/packages/node_modules/yargs-parser
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT camelcase@3.0.0 /tmp/contents668834018/deps/0/packages/node_modules/yargs-parser/node_modules/camelcase
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT typescript@2.5.3 /tmp/contents668834018/deps/0/packages/node_modules/typescript
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT browser-resolve@1.11.2 /tmp/contents668834018/deps/0/packages/node_modules/browser-resolve
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT resolve@1.1.7 /tmp/contents668834018/deps/0/packages/node_modules/browser-resolve/node_modules/resolve
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT amqplib@0.5.2 /tmp/contents668834018/deps/0/packages/node_modules/amqplib
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT readable-stream@1.1.14 /tmp/contents668834018/deps/0/packages/node_modules/amqplib/node_modules/readable-stream
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT isarray@0.0.1 /tmp/contents668834018/deps/0/packages/node_modules/amqplib/node_modules/isarray
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT string_decoder@0.10.31 /tmp/contents668834018/deps/0/packages/node_modules/amqplib/node_modules/string_decoder
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT bl@1.1.2 /tmp/contents668834018/deps/0/packages/node_modules/bl
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT readable-stream@2.0.6 /tmp/contents668834018/deps/0/packages/node_modules/bl/node_modules/readable-stream
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT process-nextick-args@1.0.7 /tmp/contents668834018/deps/0/packages/node_modules/bl/node_modules/process-nextick-args
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT string_decoder@0.10.31 /tmp/contents668834018/deps/0/packages/node_modules/bl/node_modules/string_decoder
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT blocking-proxy@0.0.5 /tmp/contents668834018/deps/0/packages/node_modules/blocking-proxy
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT minimist@1.2.0 /tmp/contents668834018/deps/0/packages/node_modules/blocking-proxy/node_modules/minimist
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT expand-braces@0.1.2 /tmp/contents668834018/deps/0/packages/node_modules/expand-braces
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT braces@0.1.5 /tmp/contents668834018/deps/0/packages/node_modules/expand-braces/node_modules/braces
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT expand-range@0.1.1 /tmp/contents668834018/deps/0/packages/node_modules/expand-braces/node_modules/expand-range
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT is-number@0.1.1 /tmp/contents668834018/deps/0/packages/node_modules/expand-braces/node_modules/is-number
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT repeat-string@0.2.2 /tmp/contents668834018/deps/0/packages/node_modules/expand-braces/node_modules/repeat-string
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT connect@3.6.6 /tmp/contents668834018/deps/0/packages/node_modules/connect
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT finalhandler@1.1.0 /tmp/contents668834018/deps/0/packages/node_modules/connect/node_modules/finalhandler
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT statuses@1.3.1 /tmp/contents668834018/deps/0/packages/node_modules/connect/node_modules/statuses
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT labeled-stream-splicer@2.0.1 /tmp/contents668834018/deps/0/packages/node_modules/labeled-stream-splicer
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT isarray@2.0.4 /tmp/contents668834018/deps/0/packages/node_modules/labeled-stream-splicer/node_modules/isarray
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT log4js@2.5.3 /tmp/contents668834018/deps/0/packages/node_modules/log4js
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT debug@3.1.0 /tmp/contents668834018/deps/0/packages/node_modules/log4js/node_modules/debug
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT streamroller@0.7.0 /tmp/contents668834018/deps/0/packages/node_modules/streamroller
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT debug@3.1.0 /tmp/contents668834018/deps/0/packages/node_modules/streamroller/node_modules/debug
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT mailgun-js@0.7.15 /tmp/contents668834018/deps/0/packages/node_modules/mailgun-js
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT async@2.1.5 /tmp/contents668834018/deps/0/packages/node_modules/mailgun-js/node_modules/async
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT debug@2.2.0 /tmp/contents668834018/deps/0/packages/node_modules/mailgun-js/node_modules/debug
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT ms@0.7.1 /tmp/contents668834018/deps/0/packages/node_modules/mailgun-js/node_modules/ms
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT path-proxy@1.0.0 /tmp/contents668834018/deps/0/packages/node_modules/path-proxy
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT inflection@1.3.8 /tmp/contents668834018/deps/0/packages/node_modules/path-proxy/node_modules/inflection
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT proxy-agent@2.0.0 /tmp/contents668834018/deps/0/packages/node_modules/proxy-agent
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT lru-cache@2.6.5 /tmp/contents668834018/deps/0/packages/node_modules/proxy-agent/node_modules/lru-cache
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT nodemailer@2.7.2 /tmp/contents668834018/deps/0/packages/node_modules/nodemailer
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT socks@1.1.9 /tmp/contents668834018/deps/0/packages/node_modules/nodemailer/node_modules/socks
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT true-case-path@1.0.2 /tmp/contents668834018/deps/0/packages/node_modules/true-case-path
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT glob@6.0.4 /tmp/contents668834018/deps/0/packages/node_modules/true-case-path/node_modules/glob
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT tsconfig@7.0.0 /tmp/contents668834018/deps/0/packages/node_modules/tsconfig
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT strip-bom@3.0.0 /tmp/contents668834018/deps/0/packages/node_modules/tsconfig/node_modules/strip-bom
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT selenium-webdriver@3.0.1 /tmp/contents668834018/deps/0/packages/node_modules/selenium-webdriver
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT tmp@0.0.30 /tmp/contents668834018/deps/0/packages/node_modules/selenium-webdriver/node_modules/tmp
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT xml2js@0.4.19 /tmp/contents668834018/deps/0/packages/node_modules/xml2js
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT sax@1.2.4 /tmp/contents668834018/deps/0/packages/node_modules/xml2js/node_modules/sax
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT webdriver-js-extender@1.0.0 /tmp/contents668834018/deps/0/packages/node_modules/webdriver-js-extender
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT selenium-webdriver@2.53.3 /tmp/contents668834018/deps/0/packages/node_modules/webdriver-js-extender/node_modules/selenium-webdriver
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT adm-zip@0.4.4 /tmp/contents668834018/deps/0/packages/node_modules/webdriver-js-extender/node_modules/adm-zip
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT tmp@0.0.24 /tmp/contents668834018/deps/0/packages/node_modules/webdriver-js-extender/node_modules/tmp
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT ws@1.1.5 /tmp/contents668834018/deps/0/packages/node_modules/webdriver-js-extender/node_modules/ws
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT ultron@1.0.2 /tmp/contents668834018/deps/0/packages/node_modules/webdriver-js-extender/node_modules/ultron
+   2018-03-30T14:11:07.89+0530 [STG/0] OUT xml2js@0.4.4 /tmp/contents668834018/deps/0/packages/node_modules/webdriver-js-extender/node_modules/xml2js
+   2018-03-30T14:11:45.03+0530 [STG/0] OUT Exit status 0
+   2018-03-30T14:11:46.82+0530 [API/15] OUT Creating droplet for app with guid 8dc88bc5-b372-4158-b221-f82740f888ae
+   2018-03-30T14:11:53.09+0530 [STG/0] OUT Uploading complete
+   2018-03-30T14:11:53.12+0530 [STG/0] OUT Cell cd3a6a7e-8bb3-4631-a839-296095130133 stopping instance 9d3f3136-4340-4800-9ddb-f52007dfc38a
+   2018-03-30T14:11:53.12+0530 [STG/0] OUT Cell cd3a6a7e-8bb3-4631-a839-296095130133 destroying container for instance 9d3f3136-4340-4800-9ddb-f52007dfc38a
+   2018-03-30T14:11:53.62+0530 [CELL/0] OUT Cell 76dba435-3477-41a6-bea1-9bd134040065 creating container for instance 8e518cc7-abb3-472a-7f5f-27f3
+   2018-03-30T14:11:54.05+0530 [CELL/0] OUT Cell 76dba435-3477-41a6-bea1-9bd134040065 successfully created container for instance 8e518cc7-abb3-472a-7f5f-27f3
+   2018-03-30T14:12:03.31+0530 [CELL/0] OUT Starting health monitoring of container
+   2018-03-30T14:12:06.99+0530 [APP/PROC/WEB/0] OUT ** NG Live Development Server is listening on localhost:8080, open your browser on http://localhost:8080/ **
+   2018-03-30T14:12:20.14+0530 [APP/PROC/WEB/0] OUT Date: 2018-03-30T08:42:20.144Z
+   2018-03-30T14:12:20.14+0530 [APP/PROC/WEB/0] OUT Hash: 51575849254be44a3222
+   2018-03-30T14:12:20.14+0530 [APP/PROC/WEB/0] OUT Time: 13100ms
+   2018-03-30T14:12:20.14+0530 [APP/PROC/WEB/0] OUT chunk {inline} inline.bundle.js (inline) 3.85 kB [entry] [rendered]
+   2018-03-30T14:12:20.14+0530 [APP/PROC/WEB/0] OUT chunk {main} main.bundle.js (main) 63.1 kB [initial] [rendered]
+   2018-03-30T14:12:20.14+0530 [APP/PROC/WEB/0] OUT chunk {polyfills} polyfills.bundle.js (polyfills) 549 kB [initial] [rendered]
+   2018-03-30T14:12:20.14+0530 [APP/PROC/WEB/0] OUT chunk {styles} styles.bundle.js (styles) 41.8 kB [initial] [rendered]
+   2018-03-30T14:12:20.14+0530 [APP/PROC/WEB/0] OUT chunk {vendor} vendor.bundle.js (vendor) 9.5 MB [initial] [rendered]
+   2018-03-30T14:12:20.22+0530 [APP/PROC/WEB/0] OUT webpack: Compiled successfully.
+   2018-03-30T14:13:03.57+0530 [HEALTH/0] ERR Failed to make TCP connection to port 8080: connection refused
+   2018-03-30T14:13:03.57+0530 [CELL/0] ERR Timed out after 1m0s: health check never passed.
+   2018-03-30T14:13:03.58+0530 [CELL/SSHD/0] OUT Exit status 0
+   2018-03-30T14:13:03.62+0530 [APP/PROC/WEB/0] OUT Exit status 143
+   2018-03-30T14:13:03.64+0530 [API/5] OUT Process has crashed with type: "web"
+   2018-03-30T14:13:03.65+0530 [CELL/0] OUT Cell 76dba435-3477-41a6-bea1-9bd134040065 stopping instance 8e518cc7-abb3-472a-7f5f-27f3
+   2018-03-30T14:13:03.65+0530 [CELL/0] OUT Cell 76dba435-3477-41a6-bea1-9bd134040065 destroying container for instance 8e518cc7-abb3-472a-7f5f-27f3
+   2018-03-30T14:13:03.81+0530 [CELL/0] OUT Cell e3f7d063-352c-4e7d-b208-7c91b098b8f8 creating container for instance f70bfc87-cd20-49a8-535b-b325
+   2018-03-30T14:13:04.40+0530 [CELL/0] OUT Cell e3f7d063-352c-4e7d-b208-7c91b098b8f8 successfully created container for instance f70bfc87-cd20-49a8-535b-b325
+   2018-03-30T14:13:05.85+0530 [CELL/0] OUT Cell 76dba435-3477-41a6-bea1-9bd134040065 successfully destroyed container for instance 8e518cc7-abb3-472a-7f5f-27f3
+   2018-03-30T14:13:14.47+0530 [CELL/0] OUT Starting health monitoring of container
+   2018-03-30T14:13:18.28+0530 [APP/PROC/WEB/0] OUT ** NG Live Development Server is listening on localhost:8080, open your browser on http://localhost:8080/ **
+   2018-03-30T14:13:31.48+0530 [APP/PROC/WEB/0] OUT Date: 2018-03-30T08:43:31.480Z
+   2018-03-30T14:13:31.48+0530 [APP/PROC/WEB/0] OUT Hash: 51575849254be44a3222
+   2018-03-30T14:13:31.48+0530 [APP/PROC/WEB/0] OUT Time: 13147ms
+   2018-03-30T14:13:31.48+0530 [APP/PROC/WEB/0] OUT chunk {inline} inline.bundle.js (inline) 3.85 kB [entry] [rendered]
+   2018-03-30T14:13:31.48+0530 [APP/PROC/WEB/0] OUT chunk {main} main.bundle.js (main) 63.1 kB [initial] [rendered]
+   2018-03-30T14:13:31.48+0530 [APP/PROC/WEB/0] OUT chunk {polyfills} polyfills.bundle.js (polyfills) 549 kB [initial] [rendered]
+   2018-03-30T14:13:31.48+0530 [APP/PROC/WEB/0] OUT chunk {styles} styles.bundle.js (styles) 41.8 kB [initial] [rendered]
+   2018-03-30T14:13:31.48+0530 [APP/PROC/WEB/0] OUT chunk {vendor} vendor.bundle.js (vendor) 9.5 MB [initial] [rendered]
+   2018-03-30T14:13:31.58+0530 [APP/PROC/WEB/0] OUT webpack: Compiled successfully.
+   2018-03-30T14:14:14.75+0530 [HEALTH/0] ERR Failed to make TCP connection to port 8080: connection refused
+   2018-03-30T14:14:14.75+0530 [CELL/0] ERR Timed out after 1m0s: health check never passed.
+   2018-03-30T14:14:14.75+0530 [CELL/SSHD/0] OUT Exit status 0
+   2018-03-30T14:14:14.78+0530 [APP/PROC/WEB/0] OUT Exit status 143
+   2018-03-30T14:14:14.83+0530 [CELL/0] OUT Cell e3f7d063-352c-4e7d-b208-7c91b098b8f8 stopping instance f70bfc87-cd20-49a8-535b-b325
+   2018-03-30T14:14:14.83+0530 [CELL/0] OUT Cell e3f7d063-352c-4e7d-b208-7c91b098b8f8 destroying container for instance f70bfc87-cd20-49a8-535b-b325
+   2018-03-30T14:14:14.91+0530 [API/7] OUT App instance exited with guid 8dc88bc5-b372-4158-b221-f82740f888ae payload: {"instance"=>"f70bfc87-cd20-49a8-535b-b325", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"Instance never healthy after 1m0s: Failed to make TCP connection to port 8080: connection refused", "crash_count"=>2, "crash_timestamp"=>1522399454825143931, "version"=>"48e76e1c-f3c8-4640-b4eb-b3aec7d61938"}
+   2018-03-30T14:14:15.01+0530 [CELL/0] OUT Cell 79f5396a-4d50-4880-91c5-fb071bafc57e creating container for instance d0424ec1-f759-4083-4c8c-0b52
+   2018-03-30T14:14:15.30+0530 [CELL/0] OUT Cell 79f5396a-4d50-4880-91c5-fb071bafc57e successfully created container for instance d0424ec1-f759-4083-4c8c-0b52
+   2018-03-30T14:14:17.36+0530 [CELL/0] OUT Cell e3f7d063-352c-4e7d-b208-7c91b098b8f8 successfully destroyed container for instance f70bfc87-cd20-49a8-535b-b325
+   2018-03-30T14:14:22.47+0530 [CELL/0] OUT Starting health monitoring of container
+   2018-03-30T14:14:34.77+0530 [APP/PROC/WEB/0] OUT Date: 2018-03-30T08:44:34.774Z
+   2018-03-30T14:14:34.77+0530 [APP/PROC/WEB/0] OUT Hash: 51575849254be44a3222
+   2018-03-30T14:14:34.77+0530 [APP/PROC/WEB/0] OUT Time: 9192ms
+   2018-03-30T14:14:34.77+0530 [APP/PROC/WEB/0] OUT chunk {inline} inline.bundle.js (inline) 3.85 kB [entry] [rendered]
+   2018-03-30T14:14:34.77+0530 [APP/PROC/WEB/0] OUT chunk {main} main.bundle.js (main) 63.1 kB [initial] [rendered]
+   2018-03-30T14:14:34.77+0530 [APP/PROC/WEB/0] OUT chunk {polyfills} polyfills.bundle.js (polyfills) 549 kB [initial] [rendered]
+   2018-03-30T14:14:34.77+0530 [APP/PROC/WEB/0] OUT chunk {styles} styles.bundle.js (styles) 41.8 kB [initial] [rendered]
+   2018-03-30T14:14:34.77+0530 [APP/PROC/WEB/0] OUT chunk {vendor} vendor.bundle.js (vendor) 9.5 MB [initial] [rendered]
+   2018-03-30T14:14:34.83+0530 [APP/PROC/WEB/0] OUT webpack: Compiled successfully.
+   2018-03-30T14:15:22.89+0530 [API/7] OUT Process has crashed with type: "web"
+   2018-03-30T14:15:24.60+0530 [CELL/0] OUT Cell 79f5396a-4d50-4880-91c5-fb071bafc57e successfully destroyed container for instance d0424ec1-f759-4083-4c8c-0b52
+   2018-03-30T14:16:17.04+0530 [CELL/0] OUT Cell 76dba435-3477-41a6-bea1-9bd134040065 creating container for instance 3b0a6ec4-40db-4a0d-421a-14de
+   2018-03-30T14:16:17.45+0530 [CELL/0] OUT Cell 76dba435-3477-41a6-bea1-9bd134040065 successfully created container for instance 3b0a6ec4-40db-4a0d-421a-14de
+   2018-03-30T14:16:21.06+0530 [CELL/0] OUT Starting health monitoring of container
+   2018-03-30T14:16:24.93+0530 [APP/PROC/WEB/0] OUT ** NG Live Development Server is listening on localhost:8080, open your browser on http://localhost:8080/ **
+   2018-03-30T14:16:38.60+0530 [APP/PROC/WEB/0] OUT Date: 2018-03-30T08:46:38.606Z
+   2018-03-30T14:16:38.60+0530 [APP/PROC/WEB/0] OUT Hash: 51575849254be44a3222
+   2018-03-30T14:16:38.60+0530 [APP/PROC/WEB/0] OUT Time: 13634ms
+   2018-03-30T14:16:38.60+0530 [APP/PROC/WEB/0] OUT chunk {inline} inline.bundle.js (inline) 3.85 kB [entry] [rendered]
+   2018-03-30T14:16:38.60+0530 [APP/PROC/WEB/0] OUT chunk {main} main.bundle.js (main) 63.1 kB [initial] [rendered]
+   2018-03-30T14:16:38.60+0530 [APP/PROC/WEB/0] OUT chunk {polyfills} polyfills.bundle.js (polyfills) 549 kB [initial] [rendered]
+   2018-03-30T14:16:38.60+0530 [APP/PROC/WEB/0] OUT chunk {styles} styles.bundle.js (styles) 41.8 kB [initial] [rendered]
+   2018-03-30T14:16:38.60+0530 [APP/PROC/WEB/0] OUT chunk {vendor} vendor.bundle.js (vendor) 9.5 MB [initial] [rendered]
+   2018-03-30T14:16:38.67+0530 [APP/PROC/WEB/0] OUT webpack: Compiled successfully.
+   2018-03-30T14:17:21.47+0530 [HEALTH/0] ERR Failed to make TCP connection to port 8080: connection refused
+   2018-03-30T14:17:21.47+0530 [CELL/0] ERR Timed out after 1m0s: health check never passed.
+   2018-03-30T14:17:21.47+0530 [CELL/SSHD/0] OUT Exit status 0
+   2018-03-30T14:17:21.52+0530 [APP/PROC/WEB/0] OUT Exit status 143
+   2018-03-30T14:17:21.55+0530 [CELL/0] OUT Cell 76dba435-3477-41a6-bea1-9bd134040065 stopping instance 3b0a6ec4-40db-4a0d-421a-14de
+   2018-03-30T14:17:21.55+0530 [CELL/0] OUT Cell 76dba435-3477-41a6-bea1-9bd134040065 destroying container for instance 3b0a6ec4-40db-4a0d-421a-14de
+   2018-03-30T14:17:23.68+0530 [CELL/0] OUT Cell 76dba435-3477-41a6-bea1-9bd134040065 successfully destroyed container for instance 3b0a6ec4-40db-4a0d-421a-14de
+   2018-03-30T14:18:52.00+0530 [CELL/0] OUT Cell a32a5e3a-75de-4118-9041-9e2be7c61855 creating container for instance b493e354-1bb5-4d82-4d14-a50b
+   2018-03-30T14:18:52.81+0530 [CELL/0] OUT Cell a32a5e3a-75de-4118-9041-9e2be7c61855 successfully created container for instance b493e354-1bb5-4d82-4d14-a50b
+   2018-03-30T14:19:03.69+0530 [CELL/0] OUT Starting health monitoring of container
+   2018-03-30T14:19:08.96+0530 [APP/PROC/WEB/0] OUT ** NG Live Development Server is listening on localhost:8080, open your browser on http://localhost:8080/ **
+   2018-03-30T14:19:30.26+0530 [APP/PROC/WEB/0] OUT Date: 2018-03-30T08:49:30.266Z
+   2018-03-30T14:19:30.26+0530 [APP/PROC/WEB/0] OUT Hash: 51575849254be44a3222
+   2018-03-30T14:19:30.26+0530 [APP/PROC/WEB/0] OUT Time: 21233ms
+   2018-03-30T14:19:30.26+0530 [APP/PROC/WEB/0] OUT chunk {inline} inline.bundle.js (inline) 3.85 kB [entry] [rendered]
+   2018-03-30T14:19:30.26+0530 [APP/PROC/WEB/0] OUT chunk {main} main.bundle.js (main) 63.1 kB [initial] [rendered]
+   2018-03-30T14:19:30.26+0530 [APP/PROC/WEB/0] OUT chunk {polyfills} polyfills.bundle.js (polyfills) 549 kB [initial] [rendered]
+   2018-03-30T14:19:30.26+0530 [APP/PROC/WEB/0] OUT chunk {styles} styles.bundle.js (styles) 41.8 kB [initial] [rendered]
+   2018-03-30T14:19:30.26+0530 [APP/PROC/WEB/0] OUT chunk {vendor} vendor.bundle.js (vendor) 9.5 MB [initial] [rendered]
+   2018-03-30T14:19:30.36+0530 [APP/PROC/WEB/0] OUT webpack: Compiled successfully.
+   2018-03-30T14:20:04.21+0530 [HEALTH/0] ERR Failed to make TCP connection to port 8080: connection refused
+   2018-03-30T14:20:04.21+0530 [CELL/0] ERR Timed out after 1m0s: health check never passed.
+   2018-03-30T14:20:04.29+0530 [CELL/SSHD/0] OUT Exit status 0
+   2018-03-30T14:20:04.30+0530 [APP/PROC/WEB/0] OUT Exit status 143
+   2018-03-30T14:20:04.34+0530 [CELL/0] OUT Cell a32a5e3a-75de-4118-9041-9e2be7c61855 stopping instance b493e354-1bb5-4d82-4d14-a50b
+   2018-03-30T14:20:04.34+0530 [CELL/0] OUT Cell a32a5e3a-75de-4118-9041-9e2be7c61855 destroying container for instance b493e354-1bb5-4d82-4d14-a50b
+   2018-03-30T14:20:04.37+0530 [API/15] OUT Process has crashed with type: "web"
+   2018-03-30T14:20:04.39+0530 [API/15] OUT App instance exited with guid 8dc88bc5-b372-4158-b221-f82740f888ae payload: {"instance"=>"b493e354-1bb5-4d82-4d14-a50b", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"Instance never healthy after 1m0s: Failed to make TCP connection to port 8080: connection refused", "crash_count"=>5, "crash_timestamp"=>1522399804340032323, "version"=>"48e76e1c-f3c8-4640-b4eb-b3aec7d61938"}
+   2018-03-30T14:20:07.28+0530 [CELL/0] OUT Cell a32a5e3a-75de-4118-9041-9e2be7c61855 successfully destroyed container for instance b493e354-1bb5-4d82-4d14-a50b
+   2018-03-30T14:21:29.58+0530 [API/5] OUT Updated app with guid 8dc88bc5-b372-4158-b221-f82740f888ae ({"buildpack"=>"https://github.com/cloudfoundry/nodejs-buildpack", "command"=>"PRIVATE DATA HIDDEN", "disk_quota"=>1024, "health_check_http_endpoint"=>"", "health_check_timeout"=>180, "health_check_type"=>"port", "instances"=>1, "memory"=>1024, "name"=>"angular4-demo"})
+   2018-03-30T14:22:28.87+0530 [CELL/0] OUT Cell e222f891-b602-4a15-9b26-fd45771f60ad creating container for instance 3fa795ab-2214-4b81-5c4f-fe63
+   2018-03-30T14:22:29.61+0530 [CELL/0] OUT Cell e222f891-b602-4a15-9b26-fd45771f60ad successfully created container for instance 3fa795ab-2214-4b81-5c4f-fe63
+   2018-03-30T14:22:38.49+0530 [CELL/0] OUT Starting health monitoring of container
+   2018-03-30T14:22:41.80+0530 [APP/PROC/WEB/0] OUT ** NG Live Development Server is listening on localhost:8080, open your browser on http://localhost:8080/ **
+   2018-03-30T14:22:43.43+0530 [API/0] OUT Uploading bits for app with guid 8dc88bc5-b372-4158-b221-f82740f888ae
+   2018-03-30T14:22:52.52+0530 [APP/PROC/WEB/0] OUT Date: 2018-03-30T08:52:52.519Z
+   2018-03-30T14:22:52.52+0530 [APP/PROC/WEB/0] OUT Hash: 51575849254be44a3222
+   2018-03-30T14:22:52.52+0530 [APP/PROC/WEB/0] OUT Time: 10667ms
+   2018-03-30T14:22:52.52+0530 [APP/PROC/WEB/0] OUT chunk {inline} inline.bundle.js (inline) 3.85 kB [entry] [rendered]
+   2018-03-30T14:22:52.52+0530 [APP/PROC/WEB/0] OUT chunk {main} main.bundle.js (main) 63.1 kB [initial] [rendered]
+   2018-03-30T14:22:52.52+0530 [APP/PROC/WEB/0] OUT chunk {polyfills} polyfills.bundle.js (polyfills) 549 kB [initial] [rendered]
+   2018-03-30T14:22:52.52+0530 [APP/PROC/WEB/0] OUT chunk {styles} styles.bundle.js (styles) 41.8 kB [initial] [rendered]
+   2018-03-30T14:22:52.52+0530 [APP/PROC/WEB/0] OUT chunk {vendor} vendor.bundle.js (vendor) 9.5 MB [initial] [rendered]
+   2018-03-30T14:22:52.60+0530 [APP/PROC/WEB/0] OUT webpack: Compiled successfully.
+   2018-03-30T14:23:38.77+0530 [HEALTH/0] ERR Failed to make TCP connection to port 8080: connection refused
+   2018-03-30T14:23:38.77+0530 [CELL/0] ERR Timed out after 1m0s: health check never passed.
+   2018-03-30T14:23:38.78+0530 [CELL/SSHD/0] OUT Exit status 0
+   2018-03-30T14:23:38.81+0530 [APP/PROC/WEB/0] OUT Exit status 143
+   2018-03-30T14:23:38.84+0530 [CELL/0] OUT Cell e222f891-b602-4a15-9b26-fd45771f60ad stopping instance 3fa795ab-2214-4b81-5c4f-fe63
+   2018-03-30T14:23:38.84+0530 [CELL/0] OUT Cell e222f891-b602-4a15-9b26-fd45771f60ad destroying container for instance 3fa795ab-2214-4b81-5c4f-fe63
+   2018-03-30T14:23:38.87+0530 [API/11] OUT Process has crashed with type: "web"
+   2018-03-30T14:23:38.93+0530 [API/11] OUT App instance exited with guid 8dc88bc5-b372-4158-b221-f82740f888ae payload: {"instance"=>"3fa795ab-2214-4b81-5c4f-fe63", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"Instance never healthy after 1m0s: Failed to make TCP connection to port 8080: connection refused", "crash_count"=>6, "crash_timestamp"=>1522400018843701633, "version"=>"48e76e1c-f3c8-4640-b4eb-b3aec7d61938"}
+   2018-03-30T14:23:40.75+0530 [CELL/0] OUT Cell e222f891-b602-4a15-9b26-fd45771f60ad successfully destroyed container for instance 3fa795ab-2214-4b81-5c4f-fe63
+   2018-03-30T14:23:55.71+0530 [API/6] OUT Updated app with guid 8dc88bc5-b372-4158-b221-f82740f888ae ({"state"=>"STOPPED"})
+   2018-03-30T14:23:57.61+0530 [API/11] OUT Creating build for app with guid 8dc88bc5-b372-4158-b221-f82740f888ae
+   2018-03-30T14:23:58.01+0530 [API/11] OUT Updated app with guid 8dc88bc5-b372-4158-b221-f82740f888ae ({"state"=>"STARTED"})
+   2018-03-30T14:24:09.24+0530 [STG/0] OUT Downloaded app package (70M)
+   2018-03-30T14:24:12.62+0530 [STG/0] OUT -----> Download go 1.9.1
+   2018-03-30T14:24:25.68+0530 [STG/0] OUT        Downloading and installing npm 5.5.1 (replacing version 5.6.0)...
+   2018-03-30T14:24:40.05+0530 [STG/0] OUT        Prebuild detected (node_modules already exists)
+   2018-03-30T14:24:57.16+0530 [STG/0] OUT Download complete
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT js-tokens@3.0.2 /tmp/contents941099428/deps/0/packages/node_modules/js-tokens
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT babylon@6.18.0 /tmp/contents941099428/deps/0/packages/node_modules/babylon
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT globals@9.18.0 /tmp/contents941099428/deps/0/packages/node_modules/globals
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT invariant@2.2.4 /tmp/contents941099428/deps/0/packages/node_modules/invariant
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT loose-envify@1.3.1 /tmp/contents941099428/deps/0/packages/node_modules/loose-envify
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT backo2@1.0.2 /tmp/contents941099428/deps/0/packages/node_modules/backo2
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT balanced-match@1.0.0 /tmp/contents941099428/deps/0/packages/node_modules/balanced-match
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT base64-arraybuffer@0.1.5 /tmp/contents941099428/deps/0/packages/node_modules/base64-arraybuffer
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT base64-js@1.2.3 /tmp/contents941099428/deps/0/packages/node_modules/base64-js
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT base64id@1.0.0 /tmp/contents941099428/deps/0/packages/node_modules/base64id
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT batch@0.6.1 /tmp/contents941099428/deps/0/packages/node_modules/batch
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT bcrypt-pbkdf@1.0.1 /tmp/contents941099428/deps/0/packages/node_modules/bcrypt-pbkdf
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT tweetnacl@0.14.5 /tmp/contents941099428/deps/0/packages/node_modules/tweetnacl
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT better-assert@1.0.2 /tmp/contents941099428/deps/0/packages/node_modules/better-assert
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT callsite@1.0.0 /tmp/contents941099428/deps/0/packages/node_modules/callsite
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT binary-extensions@1.11.0 /tmp/contents941099428/deps/0/packages/node_modules/binary-extensions
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT bitsyntax@0.0.4 /tmp/contents941099428/deps/0/packages/node_modules/bitsyntax
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT buffer-more-ints@0.0.2 /tmp/contents941099428/deps/0/packages/node_modules/buffer-more-ints
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT blob@0.0.4 /tmp/contents941099428/deps/0/packages/node_modules/blob
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT block-stream@0.0.9 /tmp/contents941099428/deps/0/packages/node_modules/block-stream
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT bluebird@3.5.1 /tmp/contents941099428/deps/0/packages/node_modules/bluebird
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT bonjour@3.5.0 /tmp/contents941099428/deps/0/packages/node_modules/bonjour
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT array-flatten@2.1.1 /tmp/contents941099428/deps/0/packages/node_modules/array-flatten
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT deep-equal@1.0.1 /tmp/contents941099428/deps/0/packages/node_modules/deep-equal
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT dns-equal@1.0.0 /tmp/contents941099428/deps/0/packages/node_modules/dns-equal
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT dns-txt@2.0.2 /tmp/contents941099428/deps/0/packages/node_modules/dns-txt
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT buffer-indexof@1.1.1 /tmp/contents941099428/deps/0/packages/node_modules/buffer-indexof
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT multicast-dns@6.2.3 /tmp/contents941099428/deps/0/packages/node_modules/multicast-dns
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT dns-packet@1.3.1 /tmp/contents941099428/deps/0/packages/node_modules/dns-packet
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT ip@1.1.5 /tmp/contents941099428/deps/0/packages/node_modules/ip
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT thunky@1.0.2 /tmp/contents941099428/deps/0/packages/node_modules/thunky
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT multicast-dns-service-types@1.1.0 /tmp/contents941099428/deps/0/packages/node_modules/multicast-dns-service-types
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT boolbase@1.0.0 /tmp/contents941099428/deps/0/packages/node_modules/boolbase
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT boom@2.10.1 /tmp/contents941099428/deps/0/packages/node_modules/boom
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT hoek@2.16.3 /tmp/contents941099428/deps/0/packages/node_modules/hoek
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT brace-expansion@1.1.11 /tmp/contents941099428/deps/0/packages/node_modules/brace-expansion
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT concat-map@0.0.1 /tmp/contents941099428/deps/0/packages/node_modules/concat-map
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT brorand@1.1.0 /tmp/contents941099428/deps/0/packages/node_modules/brorand
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT browserify-aes@1.1.1 /tmp/contents941099428/deps/0/packages/node_modules/browserify-aes
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT buffer-xor@1.0.3 /tmp/contents941099428/deps/0/packages/node_modules/buffer-xor
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT cipher-base@1.0.4 /tmp/contents941099428/deps/0/packages/node_modules/cipher-base
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT create-hash@1.1.3 /tmp/contents941099428/deps/0/packages/node_modules/create-hash
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT ripemd160@2.0.1 /tmp/contents941099428/deps/0/packages/node_modules/ripemd160
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT hash-base@2.0.2 /tmp/contents941099428/deps/0/packages/node_modules/hash-base
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT sha.js@2.4.11 /tmp/contents941099428/deps/0/packages/node_modules/sha.js
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT evp_bytestokey@1.0.3 /tmp/contents941099428/deps/0/packages/node_modules/evp_bytestokey
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT md5.js@1.3.4 /tmp/contents941099428/deps/0/packages/node_modules/md5.js
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT hash-base@3.0.4 /tmp/contents941099428/deps/0/packages/node_modules/md5.js/node_modules/hash-base
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT browserify-cipher@1.0.0 /tmp/contents941099428/deps/0/packages/node_modules/browserify-cipher
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT browserify-des@1.0.0 /tmp/contents941099428/deps/0/packages/node_modules/browserify-des
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT des.js@1.0.0 /tmp/contents941099428/deps/0/packages/node_modules/des.js
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT browserify-rsa@4.0.1 /tmp/contents941099428/deps/0/packages/node_modules/browserify-rsa
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT randombytes@2.0.6 /tmp/contents941099428/deps/0/packages/node_modules/randombytes
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT browserify-sign@4.0.4 /tmp/contents941099428/deps/0/packages/node_modules/browserify-sign
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT create-hmac@1.1.6 /tmp/contents941099428/deps/0/packages/node_modules/create-hmac
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT elliptic@6.4.0 /tmp/contents941099428/deps/0/packages/node_modules/elliptic
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT hash.js@1.1.3 /tmp/contents941099428/deps/0/packages/node_modules/hash.js
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT hmac-drbg@1.0.1 /tmp/contents941099428/deps/0/packages/node_modules/hmac-drbg
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT minimalistic-crypto-utils@1.0.1 /tmp/contents941099428/deps/0/packages/node_modules/minimalistic-crypto-utils
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT parse-asn1@5.1.0 /tmp/contents941099428/deps/0/packages/node_modules/parse-asn1
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT pbkdf2@3.0.14 /tmp/contents941099428/deps/0/packages/node_modules/pbkdf2
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT browserify-zlib@0.2.0 /tmp/contents941099428/deps/0/packages/node_modules/browserify-zlib
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT pako@1.0.6 /tmp/contents941099428/deps/0/packages/node_modules/pako
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT buffer@4.9.1 /tmp/contents941099428/deps/0/packages/node_modules/buffer
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT ieee754@1.1.11 /tmp/contents941099428/deps/0/packages/node_modules/ieee754
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT buffer-from@1.0.0 /tmp/contents941099428/deps/0/packages/node_modules/buffer-from
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT array-find-index@1.0.2 /tmp/contents941099428/deps/0/packages/node_modules/array-find-index
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT builtin-modules@1.1.1 /tmp/contents941099428/deps/0/packages/node_modules/builtin-modules
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT builtin-status-codes@3.0.0 /tmp/contents941099428/deps/0/packages/node_modules/builtin-status-codes
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT bytes@3.0.0 /tmp/contents941099428/deps/0/packages/node_modules/bytes
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT cacache@10.0.4 /tmp/contents941099428/deps/0/packages/node_modules/cacache
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT chownr@1.0.1 /tmp/contents941099428/deps/0/packages/node_modules/chownr
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT glob@7.1.2 /tmp/contents941099428/deps/0/packages/node_modules/glob
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT fs.realpath@1.0.0 /tmp/contents941099428/deps/0/packages/node_modules/fs.realpath
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT inflight@1.0.6 /tmp/contents941099428/deps/0/packages/node_modules/inflight
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT once@1.4.0 /tmp/contents941099428/deps/0/packages/node_modules/once
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT wrappy@1.0.2 /tmp/contents941099428/deps/0/packages/node_modules/wrappy
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT minimatch@3.0.4 /tmp/contents941099428/deps/0/packages/node_modules/minimatch
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT path-is-absolute@1.0.1 /tmp/contents941099428/deps/0/packages/node_modules/path-is-absolute
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT lru-cache@4.1.2 /tmp/contents941099428/deps/0/packages/node_modules/lru-cache
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT pseudomap@1.0.2 /tmp/contents941099428/deps/0/packages/node_modules/pseudomap
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT yallist@2.1.2 /tmp/contents941099428/deps/0/packages/node_modules/yallist
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT mississippi@2.0.0 /tmp/contents941099428/deps/0/packages/node_modules/mississippi
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT concat-stream@1.6.2 /tmp/contents941099428/deps/0/packages/node_modules/concat-stream
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT typedarray@0.0.6 /tmp/contents941099428/deps/0/packages/node_modules/typedarray
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT duplexify@3.5.4 /tmp/contents941099428/deps/0/packages/node_modules/duplexify
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT supports-color@3.2.3 /tmp/contents941099428/deps/0/packages/node_modules/istanbul-lib-report/node_modules/supports-color
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT has-flag@1.0.0 /tmp/contents941099428/deps/0/packages/node_modules/istanbul-lib-report/node_modules/has-flag
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT istanbul-lib-source-maps@1.2.4 /tmp/contents941099428/deps/0/packages/node_modules/istanbul-lib-source-maps
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT debug@3.1.0 /tmp/contents941099428/deps/0/packages/node_modules/istanbul-lib-source-maps/node_modules/debug
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT istanbul-reports@1.3.0 /tmp/contents941099428/deps/0/packages/node_modules/istanbul-reports
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT handlebars@4.0.11 /tmp/contents941099428/deps/0/packages/node_modules/handlebars
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT async@1.5.2 /tmp/contents941099428/deps/0/packages/node_modules/handlebars/node_modules/async
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT optimist@0.6.1 /tmp/contents941099428/deps/0/packages/node_modules/optimist
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT wordwrap@0.0.2 /tmp/contents941099428/deps/0/packages/node_modules/wordwrap
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT source-map@0.4.4 /tmp/contents941099428/deps/0/packages/node_modules/handlebars/node_modules/source-map
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT uglify-js@2.8.29 /tmp/contents941099428/deps/0/packages/node_modules/handlebars/node_modules/uglify-js
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT source-map@0.5.7 /tmp/contents941099428/deps/0/packages/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT yargs@3.10.0 /tmp/contents941099428/deps/0/packages/node_modules/handlebars/node_modules/yargs
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT camelcase@1.2.1 /tmp/contents941099428/deps/0/packages/node_modules/handlebars/node_modules/camelcase
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT cliui@2.1.0 /tmp/contents941099428/deps/0/packages/node_modules/handlebars/node_modules/cliui
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT right-align@0.1.3 /tmp/contents941099428/deps/0/packages/node_modules/right-align
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT window-size@0.1.0 /tmp/contents941099428/deps/0/packages/node_modules/window-size
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT js-yaml@3.11.0 /tmp/contents941099428/deps/0/packages/node_modules/js-yaml
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT esprima@4.0.0 /tmp/contents941099428/deps/0/packages/node_modules/esprima
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT jasmine-core@2.8.0 /tmp/contents941099428/deps/0/packages/node_modules/jasmine-core
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT jasmine-spec-reporter@4.2.1 /tmp/contents941099428/deps/0/packages/node_modules/jasmine-spec-reporter
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT jasminewd2@2.2.0 /tmp/contents941099428/deps/0/packages/node_modules/jasminewd2
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT js-base64@2.4.3 /tmp/contents941099428/deps/0/packages/node_modules/js-base64
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT json-loader@0.5.7 /tmp/contents941099428/deps/0/packages/node_modules/json-loader
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT json3@3.3.2 /tmp/contents941099428/deps/0/packages/node_modules/json3
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT jsonparse@1.3.1 /tmp/contents941099428/deps/0/packages/node_modules/jsonparse
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT karma-chrome-launcher@2.2.0 /tmp/contents941099428/deps/0/packages/node_modules/karma-chrome-launcher
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT karma-coverage-istanbul-reporter@1.4.2 /tmp/contents941099428/deps/0/packages/node_modules/karma-coverage-istanbul-reporter
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT karma-jasmine@1.1.1 /tmp/contents941099428/deps/0/packages/node_modules/karma-jasmine
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT karma-jasmine-html-reporter@0.2.2 /tmp/contents941099428/deps/0/packages/node_modules/karma-jasmine-html-reporter
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT karma-source-map-support@1.2.0 /tmp/contents941099428/deps/0/packages/node_modules/karma-source-map-support
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT source-map-support@0.4.18 /tmp/contents941099428/deps/0/packages/node_modules/source-map-support
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT killable@1.0.0 /tmp/contents941099428/deps/0/packages/node_modules/killable
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT lcid@1.0.0 /tmp/contents941099428/deps/0/packages/node_modules/lcid
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT less-loader@4.1.0 /tmp/contents941099428/deps/0/packages/node_modules/less-loader
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT levn@0.3.0 /tmp/contents941099428/deps/0/packages/node_modules/levn
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT prelude-ls@1.1.2 /tmp/contents941099428/deps/0/packages/node_modules/prelude-ls
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT type-check@0.3.2 /tmp/contents941099428/deps/0/packages/node_modules/type-check
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT lexical-scope@1.2.0 /tmp/contents941099428/deps/0/packages/node_modules/lexical-scope
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT astw@2.2.0 /tmp/contents941099428/deps/0/packages/node_modules/astw
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT acorn@4.0.13 /tmp/contents941099428/deps/0/packages/node_modules/astw/node_modules/acorn
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT libbase64@0.1.0 /tmp/contents941099428/deps/0/packages/node_modules/libbase64
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT libqp@1.1.0 /tmp/contents941099428/deps/0/packages/node_modules/libqp
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT license-webpack-plugin@1.3.1 /tmp/contents941099428/deps/0/packages/node_modules/license-webpack-plugin
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT loader-runner@2.3.0 /tmp/contents941099428/deps/0/packages/node_modules/loader-runner
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT lodash.assign@4.2.0 /tmp/contents941099428/deps/0/packages/node_modules/lodash.assign
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT lodash.clonedeep@4.5.0 /tmp/contents941099428/deps/0/packages/node_modules/lodash.clonedeep
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT lodash.memoize@3.0.4 /tmp/contents941099428/deps/0/packages/node_modules/lodash.memoize
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT lodash.mergewith@4.6.1 /tmp/contents941099428/deps/0/packages/node_modules/lodash.mergewith
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT lodash.tail@4.1.1 /tmp/contents941099428/deps/0/packages/node_modules/lodash.tail
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT loglevel@1.6.1 /tmp/contents941099428/deps/0/packages/node_modules/loglevel
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT loud-rejection@1.6.0 /tmp/contents941099428/deps/0/packages/node_modules/loud-rejection
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT mailcomposer@4.0.1 /tmp/contents941099428/deps/0/packages/node_modules/mailcomposer
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT buildmail@4.0.1 /tmp/contents941099428/deps/0/packages/node_modules/buildmail
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT libmime@3.0.0 /tmp/contents941099428/deps/0/packages/node_modules/libmime
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT iconv-lite@0.4.15 /tmp/contents941099428/deps/0/packages/node_modules/libmime/node_modules/iconv-lite
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT nodemailer-fetch@1.6.0 /tmp/contents941099428/deps/0/packages/node_modules/nodemailer-fetch
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT nodemailer-shared@1.1.0 /tmp/contents941099428/deps/0/packages/node_modules/nodemailer-shared
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT punycode@1.4.1 /tmp/contents941099428/deps/0/packages/node_modules/buildmail/node_modules/punycode
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT make-error@1.3.4 /tmp/contents941099428/deps/0/packages/node_modules/make-error
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT media-typer@0.3.0 /tmp/contents941099428/deps/0/packages/node_modules/media-typer
+   2018-03-30T14:24:57.57+0530 [STG/0] OUT mem@1.1.0 /tmp/contents941099428/deps/0/packages/node_modules/mem
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT mimic-fn@1.2.0 /tmp/contents941099428/deps/0/packages/node_modules/mimic-fn
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT merge-descriptors@1.0.1 /tmp/contents941099428/deps/0/packages/node_modules/merge-descriptors
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT methods@1.1.2 /tmp/contents941099428/deps/0/packages/node_modules/methods
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT nan@2.10.0 /tmp/contents941099428/deps/0/packages/node_modules/nan
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT ncname@1.0.0 /tmp/contents941099428/deps/0/packages/node_modules/ncname
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT xml-char-classes@1.0.0 /tmp/contents941099428/deps/0/packages/node_modules/xml-char-classes
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT netmask@1.0.6 /tmp/contents941099428/deps/0/packages/node_modules/netmask
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT node-forge@0.7.1 /tmp/contents941099428/deps/0/packages/node_modules/node-forge
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT node-modules-path@1.0.1 /tmp/contents941099428/deps/0/packages/node_modules/node-modules-path
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT nodemailer-direct-transport@3.3.2 /tmp/contents941099428/deps/0/packages/node_modules/nodemailer-direct-transport
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT smtp-connection@2.12.0 /tmp/contents941099428/deps/0/packages/node_modules/smtp-connection
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT nodemailer-smtp-pool@2.8.2 /tmp/contents941099428/deps/0/packages/node_modules/nodemailer-smtp-pool
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT nodemailer-wellknown@0.1.10 /tmp/contents941099428/deps/0/packages/node_modules/nodemailer-wellknown
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT nodemailer-smtp-transport@2.7.2 /tmp/contents941099428/deps/0/packages/node_modules/nodemailer-smtp-transport
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT normalize-package-data@2.4.0 /tmp/contents941099428/deps/0/packages/node_modules/normalize-package-data
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT validate-npm-package-license@3.0.3 /tmp/contents941099428/deps/0/packages/node_modules/validate-npm-package-license
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT spdx-correct@3.0.0 /tmp/contents941099428/deps/0/packages/node_modules/spdx-correct
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT spdx-expression-parse@3.0.0 /tmp/contents941099428/deps/0/packages/node_modules/spdx-expression-parse
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT spdx-exceptions@2.1.0 /tmp/contents941099428/deps/0/packages/node_modules/spdx-exceptions
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT spdx-license-ids@3.0.0 /tmp/contents941099428/deps/0/packages/node_modules/spdx-license-ids
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT normalize-range@0.1.2 /tmp/contents941099428/deps/0/packages/node_modules/normalize-range
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT npm-run-path@2.0.2 /tmp/contents941099428/deps/0/packages/node_modules/npm-run-path
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT path-key@2.0.1 /tmp/contents941099428/deps/0/packages/node_modules/path-key
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT npmlog@4.1.2 /tmp/contents941099428/deps/0/packages/node_modules/npmlog
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT set-blocking@2.0.0 /tmp/contents941099428/deps/0/packages/node_modules/set-blocking
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT num2fraction@1.2.2 /tmp/contents941099428/deps/0/packages/node_modules/num2fraction
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT object-component@0.0.3 /tmp/contents941099428/deps/0/packages/node_modules/object-component
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT opn@5.1.0 /tmp/contents941099428/deps/0/packages/node_modules/opn
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT options@0.0.6 /tmp/contents941099428/deps/0/packages/node_modules/options
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT os-browserify@0.3.0 /tmp/contents941099428/deps/0/packages/node_modules/os-browserify
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT os-homedir@1.0.2 /tmp/contents941099428/deps/0/packages/node_modules/os-homedir
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT os-locale@1.4.0 /tmp/contents941099428/deps/0/packages/node_modules/os-locale
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT os-tmpdir@1.0.2 /tmp/contents941099428/deps/0/packages/node_modules/os-tmpdir
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT osenv@0.1.5 /tmp/contents941099428/deps/0/packages/node_modules/osenv
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT p-finally@1.0.0 /tmp/contents941099428/deps/0/packages/node_modules/p-finally
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT extend-shallow@2.0.1 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/fill-range/node_modules/extend-shallow
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT is-number@3.0.0 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/is-number
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT kind-of@3.2.2 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/is-number/node_modules/kind-of
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT isobject@3.0.1 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/isobject
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT kind-of@6.0.2 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/kind-of
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT extglob@2.0.4 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/extglob
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT define-property@1.0.0 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/extglob/node_modules/define-property
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT expand-brackets@2.1.4 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/expand-brackets
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT debug@2.6.9 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/expand-brackets/node_modules/debug
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT define-property@0.2.5 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/expand-brackets/node_modules/define-property
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT is-descriptor@0.1.6 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/expand-brackets/node_modules/is-descriptor
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT is-accessor-descriptor@0.1.6 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/is-accessor-descriptor
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT kind-of@3.2.2 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/is-accessor-descriptor/node_modules/kind-of
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT is-data-descriptor@0.1.4 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/is-data-descriptor
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT kind-of@3.2.2 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/is-data-descriptor/node_modules/kind-of
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT kind-of@5.1.0 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/expand-brackets/node_modules/kind-of
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT extend-shallow@2.0.1 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/expand-brackets/node_modules/extend-shallow
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT extend-shallow@2.0.1 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/extglob/node_modules/extend-shallow
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT glob-parent@3.1.0 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/glob-parent
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT is-glob@3.1.0 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/glob-parent/node_modules/is-glob
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT is-extglob@2.1.1 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/is-extglob
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT is-glob@4.0.0 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/is-glob
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT debug@3.1.0 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/debug
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT del@3.0.0 /tmp/contents941099428/deps/0/packages/node_modules/del
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT globby@6.1.0 /tmp/contents941099428/deps/0/packages/node_modules/del/node_modules/globby
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT pify@2.3.0 /tmp/contents941099428/deps/0/packages/node_modules/del/node_modules/globby/node_modules/pify
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT express@4.16.3 /tmp/contents941099428/deps/0/packages/node_modules/express
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT array-flatten@1.1.1 /tmp/contents941099428/deps/0/packages/node_modules/express/node_modules/array-flatten
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT body-parser@1.18.2 /tmp/contents941099428/deps/0/packages/node_modules/body-parser
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT qs@6.5.1 /tmp/contents941099428/deps/0/packages/node_modules/body-parser/node_modules/qs
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT qs@6.5.1 /tmp/contents941099428/deps/0/packages/node_modules/express/node_modules/qs
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT http-proxy-middleware@0.17.4 /tmp/contents941099428/deps/0/packages/node_modules/http-proxy-middleware
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT is-glob@3.1.0 /tmp/contents941099428/deps/0/packages/node_modules/http-proxy-middleware/node_modules/is-glob
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT is-extglob@2.1.1 /tmp/contents941099428/deps/0/packages/node_modules/http-proxy-middleware/node_modules/is-extglob
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT import-local@1.0.0 /tmp/contents941099428/deps/0/packages/node_modules/import-local
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT internal-ip@1.2.0 /tmp/contents941099428/deps/0/packages/node_modules/internal-ip
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT meow@3.7.0 /tmp/contents941099428/deps/0/packages/node_modules/meow
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT minimist@1.2.0 /tmp/contents941099428/deps/0/packages/node_modules/meow/node_modules/minimist
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT read-pkg-up@1.0.1 /tmp/contents941099428/deps/0/packages/node_modules/read-pkg-up
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT find-up@1.1.2 /tmp/contents941099428/deps/0/packages/node_modules/read-pkg-up/node_modules/find-up
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT path-exists@2.1.0 /tmp/contents941099428/deps/0/packages/node_modules/read-pkg-up/node_modules/path-exists
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT read-pkg@1.1.0 /tmp/contents941099428/deps/0/packages/node_modules/read-pkg
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT load-json-file@1.1.0 /tmp/contents941099428/deps/0/packages/node_modules/load-json-file
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT pify@2.3.0 /tmp/contents941099428/deps/0/packages/node_modules/load-json-file/node_modules/pify
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT path-type@1.1.0 /tmp/contents941099428/deps/0/packages/node_modules/read-pkg/node_modules/path-type
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT pify@2.3.0 /tmp/contents941099428/deps/0/packages/node_modules/read-pkg/node_modules/pify
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT sockjs-client@1.1.4 /tmp/contents941099428/deps/0/packages/node_modules/sockjs-client
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT faye-websocket@0.11.1 /tmp/contents941099428/deps/0/packages/node_modules/sockjs-client/node_modules/faye-websocket
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT url-parse@1.2.0 /tmp/contents941099428/deps/0/packages/node_modules/url-parse
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT querystringify@1.0.0 /tmp/contents941099428/deps/0/packages/node_modules/url-parse/node_modules/querystringify
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT supports-color@5.3.0 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/supports-color
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT has-flag@3.0.0 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/has-flag
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT yargs@6.6.0 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/yargs
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT camelcase@3.0.0 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/camelcase
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT y18n@3.2.1 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/y18n
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT yargs-parser@4.2.1 /tmp/contents941099428/deps/0/packages/node_modules/webpack-dev-server/node_modules/yargs-parser
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT JSONStream@1.3.2 /tmp/contents941099428/deps/0/packages/node_modules/JSONStream
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT browser-pack@6.0.4 /tmp/contents941099428/deps/0/packages/node_modules/browser-pack
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT combine-source-map@0.8.0 /tmp/contents941099428/deps/0/packages/node_modules/combine-source-map
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT convert-source-map@1.1.3 /tmp/contents941099428/deps/0/packages/node_modules/combine-source-map/node_modules/convert-source-map
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT umd@3.0.3 /tmp/contents941099428/deps/0/packages/node_modules/umd
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT deps-sort@2.0.0 /tmp/contents941099428/deps/0/packages/node_modules/deps-sort
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT shasum@1.0.2 /tmp/contents941099428/deps/0/packages/node_modules/shasum
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT json-stable-stringify@0.0.1 /tmp/contents941099428/deps/0/packages/node_modules/shasum/node_modules/json-stable-stringify
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT subarg@1.0.0 /tmp/contents941099428/deps/0/packages/node_modules/subarg
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT minimist@1.2.0 /tmp/contents941099428/deps/0/packages/node_modules/subarg/node_modules/minimist
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT image-size@0.5.5 /tmp/contents941099428/deps/0/packages/node_modules/image-size
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT in-publish@2.0.0 /tmp/contents941099428/deps/0/packages/node_modules/in-publish
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT sass-graph@2.2.4 /tmp/contents941099428/deps/0/packages/node_modules/sass-graph
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT scss-tokenizer@0.2.3 /tmp/contents941099428/deps/0/packages/node_modules/scss-tokenizer
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT source-map@0.4.4 /tmp/contents941099428/deps/0/packages/node_modules/scss-tokenizer/node_modules/source-map
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT yargs@7.1.0 /tmp/contents941099428/deps/0/packages/node_modules/yargs
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT camelcase@3.0.0 /tmp/contents941099428/deps/0/packages/node_modules/yargs/node_modules/camelcase
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT y18n@3.2.1 /tmp/contents941099428/deps/0/packages/node_modules/yargs/node_modules/y18n
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT yargs-parser@5.0.0 /tmp/contents941099428/deps/0/packages/node_modules/yargs-parser
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT camelcase@3.0.0 /tmp/contents941099428/deps/0/packages/node_modules/yargs-parser/node_modules/camelcase
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT typescript@2.5.3 /tmp/contents941099428/deps/0/packages/node_modules/typescript
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT browser-resolve@1.11.2 /tmp/contents941099428/deps/0/packages/node_modules/browser-resolve
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT resolve@1.1.7 /tmp/contents941099428/deps/0/packages/node_modules/browser-resolve/node_modules/resolve
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT amqplib@0.5.2 /tmp/contents941099428/deps/0/packages/node_modules/amqplib
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT readable-stream@1.1.14 /tmp/contents941099428/deps/0/packages/node_modules/amqplib/node_modules/readable-stream
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT isarray@0.0.1 /tmp/contents941099428/deps/0/packages/node_modules/amqplib/node_modules/isarray
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT string_decoder@0.10.31 /tmp/contents941099428/deps/0/packages/node_modules/amqplib/node_modules/string_decoder
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT bl@1.1.2 /tmp/contents941099428/deps/0/packages/node_modules/bl
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT readable-stream@2.0.6 /tmp/contents941099428/deps/0/packages/node_modules/bl/node_modules/readable-stream
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT process-nextick-args@1.0.7 /tmp/contents941099428/deps/0/packages/node_modules/bl/node_modules/process-nextick-args
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT string_decoder@0.10.31 /tmp/contents941099428/deps/0/packages/node_modules/bl/node_modules/string_decoder
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT blocking-proxy@0.0.5 /tmp/contents941099428/deps/0/packages/node_modules/blocking-proxy
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT minimist@1.2.0 /tmp/contents941099428/deps/0/packages/node_modules/blocking-proxy/node_modules/minimist
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT connect@3.6.6 /tmp/contents941099428/deps/0/packages/node_modules/connect
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT finalhandler@1.1.0 /tmp/contents941099428/deps/0/packages/node_modules/connect/node_modules/finalhandler
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT statuses@1.3.1 /tmp/contents941099428/deps/0/packages/node_modules/connect/node_modules/statuses
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT expand-braces@0.1.2 /tmp/contents941099428/deps/0/packages/node_modules/expand-braces
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT braces@0.1.5 /tmp/contents941099428/deps/0/packages/node_modules/expand-braces/node_modules/braces
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT expand-range@0.1.1 /tmp/contents941099428/deps/0/packages/node_modules/expand-braces/node_modules/expand-range
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT is-number@0.1.1 /tmp/contents941099428/deps/0/packages/node_modules/expand-braces/node_modules/is-number
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT repeat-string@0.2.2 /tmp/contents941099428/deps/0/packages/node_modules/expand-braces/node_modules/repeat-string
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT labeled-stream-splicer@2.0.1 /tmp/contents941099428/deps/0/packages/node_modules/labeled-stream-splicer
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT isarray@2.0.4 /tmp/contents941099428/deps/0/packages/node_modules/labeled-stream-splicer/node_modules/isarray
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT log4js@2.5.3 /tmp/contents941099428/deps/0/packages/node_modules/log4js
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT debug@3.1.0 /tmp/contents941099428/deps/0/packages/node_modules/log4js/node_modules/debug
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT streamroller@0.7.0 /tmp/contents941099428/deps/0/packages/node_modules/streamroller
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT debug@3.1.0 /tmp/contents941099428/deps/0/packages/node_modules/streamroller/node_modules/debug
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT mailgun-js@0.7.15 /tmp/contents941099428/deps/0/packages/node_modules/mailgun-js
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT async@2.1.5 /tmp/contents941099428/deps/0/packages/node_modules/mailgun-js/node_modules/async
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT debug@2.2.0 /tmp/contents941099428/deps/0/packages/node_modules/mailgun-js/node_modules/debug
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT ms@0.7.1 /tmp/contents941099428/deps/0/packages/node_modules/mailgun-js/node_modules/ms
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT path-proxy@1.0.0 /tmp/contents941099428/deps/0/packages/node_modules/path-proxy
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT inflection@1.3.8 /tmp/contents941099428/deps/0/packages/node_modules/path-proxy/node_modules/inflection
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT proxy-agent@2.0.0 /tmp/contents941099428/deps/0/packages/node_modules/proxy-agent
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT lru-cache@2.6.5 /tmp/contents941099428/deps/0/packages/node_modules/proxy-agent/node_modules/lru-cache
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT nodemailer@2.7.2 /tmp/contents941099428/deps/0/packages/node_modules/nodemailer
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT socks@1.1.9 /tmp/contents941099428/deps/0/packages/node_modules/nodemailer/node_modules/socks
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT selenium-webdriver@3.0.1 /tmp/contents941099428/deps/0/packages/node_modules/selenium-webdriver
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT tmp@0.0.30 /tmp/contents941099428/deps/0/packages/node_modules/selenium-webdriver/node_modules/tmp
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT xml2js@0.4.19 /tmp/contents941099428/deps/0/packages/node_modules/xml2js
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT sax@1.2.4 /tmp/contents941099428/deps/0/packages/node_modules/xml2js/node_modules/sax
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT true-case-path@1.0.2 /tmp/contents941099428/deps/0/packages/node_modules/true-case-path
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT glob@6.0.4 /tmp/contents941099428/deps/0/packages/node_modules/true-case-path/node_modules/glob
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT tsconfig@7.0.0 /tmp/contents941099428/deps/0/packages/node_modules/tsconfig
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT strip-bom@3.0.0 /tmp/contents941099428/deps/0/packages/node_modules/tsconfig/node_modules/strip-bom
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT webdriver-js-extender@1.0.0 /tmp/contents941099428/deps/0/packages/node_modules/webdriver-js-extender
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT selenium-webdriver@2.53.3 /tmp/contents941099428/deps/0/packages/node_modules/webdriver-js-extender/node_modules/selenium-webdriver
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT adm-zip@0.4.4 /tmp/contents941099428/deps/0/packages/node_modules/webdriver-js-extender/node_modules/adm-zip
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT tmp@0.0.24 /tmp/contents941099428/deps/0/packages/node_modules/webdriver-js-extender/node_modules/tmp
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT ws@1.1.5 /tmp/contents941099428/deps/0/packages/node_modules/webdriver-js-extender/node_modules/ws
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT ultron@1.0.2 /tmp/contents941099428/deps/0/packages/node_modules/webdriver-js-extender/node_modules/ultron
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT xml2js@0.4.4 /tmp/contents941099428/deps/0/packages/node_modules/webdriver-js-extender/node_modules/xml2js
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT sax@0.6.1 /tmp/contents941099428/deps/0/packages/node_modules/webdriver-js-extender/node_modules/sax
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT insert-module-globals@7.0.4 /tmp/contents941099428/deps/0/packages/node_modules/insert-module-globals
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT combine-source-map@0.7.2 /tmp/contents941099428/deps/0/packages/node_modules/insert-module-globals/node_modules/combine-source-map
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT convert-source-map@1.1.3 /tmp/contents941099428/deps/0/packages/node_modules/insert-module-globals/node_modules/convert-source-map
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT jasmine@2.99.0 /tmp/contents941099428/deps/0/packages/node_modules/jasmine
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT jasmine-core@2.99.1 /tmp/contents941099428/deps/0/packages/node_modules/jasmine/node_modules/jasmine-core
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT karma@2.0.0 /tmp/contents941099428/deps/0/packages/node_modules/karma
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT browserify@14.5.0 /tmp/contents941099428/deps/0/packages/node_modules/browserify
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT buffer@5.1.0 /tmp/contents941099428/deps/0/packages/node_modules/browserify/node_modules/buffer
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT concat-stream@1.5.2 /tmp/contents941099428/deps/0/packages/node_modules/browserify/node_modules/concat-stream
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT readable-stream@2.0.6 /tmp/contents941099428/deps/0/packages/node_modules/browserify/node_modules/concat-stream/node_modules/readable-stream
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT process-nextick-args@1.0.7 /tmp/contents941099428/deps/0/packages/node_modules/browserify/node_modules/process-nextick-args
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT string_decoder@0.10.31 /tmp/contents941099428/deps/0/packages/node_modules/browserify/node_modules/concat-stream/node_modules/string_decoder
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT domain-browser@1.1.7 /tmp/contents941099428/deps/0/packages/node_modules/browserify/node_modules/domain-browser
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT module-deps@4.1.1 /tmp/contents941099428/deps/0/packages/node_modules/module-deps
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT concat-stream@1.5.2 /tmp/contents941099428/deps/0/packages/node_modules/module-deps/node_modules/concat-stream
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT readable-stream@2.0.6 /tmp/contents941099428/deps/0/packages/node_modules/module-deps/node_modules/concat-stream/node_modules/readable-stream
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT process-nextick-args@1.0.7 /tmp/contents941099428/deps/0/packages/node_modules/module-deps/node_modules/process-nextick-args
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT string_decoder@0.10.31 /tmp/contents941099428/deps/0/packages/node_modules/module-deps/node_modules/string_decoder
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT punycode@1.4.1 /tmp/contents941099428/deps/0/packages/node_modules/browserify/node_modules/punycode
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT timers-browserify@1.4.2 /tmp/contents941099428/deps/0/packages/node_modules/browserify/node_modules/timers-browserify
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT source-map@0.6.1 /tmp/contents941099428/deps/0/packages/node_modules/karma/node_modules/source-map
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT loggly@1.1.1 /tmp/contents941099428/deps/0/packages/node_modules/loggly
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT request@2.75.0 /tmp/contents941099428/deps/0/packages/node_modules/loggly/node_modules/request
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT caseless@0.11.0 /tmp/contents941099428/deps/0/packages/node_modules/loggly/node_modules/caseless
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT form-data@2.0.0 /tmp/contents941099428/deps/0/packages/node_modules/loggly/node_modules/form-data
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT har-validator@2.0.6 /tmp/contents941099428/deps/0/packages/node_modules/loggly/node_modules/har-validator
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT chalk@1.1.3 /tmp/contents941099428/deps/0/packages/node_modules/loggly/node_modules/chalk
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT ansi-styles@2.2.1 /tmp/contents941099428/deps/0/packages/node_modules/loggly/node_modules/ansi-styles
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT supports-color@2.0.0 /tmp/contents941099428/deps/0/packages/node_modules/loggly/node_modules/supports-color
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT node-uuid@1.4.8 /tmp/contents941099428/deps/0/packages/node_modules/loggly/node_modules/node-uuid
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT qs@6.2.3 /tmp/contents941099428/deps/0/packages/node_modules/loggly/node_modules/qs
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT tunnel-agent@0.4.3 /tmp/contents941099428/deps/0/packages/node_modules/loggly/node_modules/tunnel-agent
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT ts-node@4.1.0 /tmp/contents941099428/deps/0/packages/node_modules/ts-node
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT chalk@2.3.2 /tmp/contents941099428/deps/0/packages/node_modules/ts-node/node_modules/chalk
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT supports-color@5.3.0 /tmp/contents941099428/deps/0/packages/node_modules/ts-node/node_modules/supports-color
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT has-flag@3.0.0 /tmp/contents941099428/deps/0/packages/node_modules/ts-node/node_modules/has-flag
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT minimist@1.2.0 /tmp/contents941099428/deps/0/packages/node_modules/ts-node/node_modules/minimist
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT source-map-support@0.5.4 /tmp/contents941099428/deps/0/packages/node_modules/ts-node/node_modules/source-map-support
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT source-map@0.6.1 /tmp/contents941099428/deps/0/packages/node_modules/ts-node/node_modules/source-map
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT tsickle@0.27.2 /tmp/contents941099428/deps/0/packages/node_modules/tsickle
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT minimist@1.2.0 /tmp/contents941099428/deps/0/packages/node_modules/tsickle/node_modules/minimist
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT source-map@0.6.1 /tmp/contents941099428/deps/0/packages/node_modules/tsickle/node_modules/source-map
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT source-map-support@0.5.4 /tmp/contents941099428/deps/0/packages/node_modules/tsickle/node_modules/source-map-support
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT tslint@5.9.1 /tmp/contents941099428/deps/0/packages/node_modules/tslint
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT chalk@2.3.2 /tmp/contents941099428/deps/0/packages/node_modules/tslint/node_modules/chalk
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT supports-color@5.3.0 /tmp/contents941099428/deps/0/packages/node_modules/tslint/node_modules/supports-color
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT has-flag@3.0.0 /tmp/contents941099428/deps/0/packages/node_modules/tslint/node_modules/has-flag
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT @angular/compiler-cli@5.2.9 /tmp/contents941099428/deps/0/packages/node_modules/@angular/compiler-cli
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT minimist@1.2.0 /tmp/contents941099428/deps/0/packages/node_modules/@angular/compiler-cli/node_modules/minimist
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT node-gyp@3.6.2 /tmp/contents941099428/deps/0/packages/node_modules/node-gyp
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT nopt@3.0.6 /tmp/contents941099428/deps/0/packages/node_modules/node-gyp/node_modules/nopt
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT semver@5.3.0 /tmp/contents941099428/deps/0/packages/node_modules/node-gyp/node_modules/semver
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT node-sass@4.8.3 /tmp/contents941099428/deps/0/packages/node_modules/node-sass
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT chalk@1.1.3 /tmp/contents941099428/deps/0/packages/node_modules/node-sass/node_modules/chalk
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT ansi-styles@2.2.1 /tmp/contents941099428/deps/0/packages/node_modules/node-sass/node_modules/ansi-styles
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT supports-color@2.0.0 /tmp/contents941099428/deps/0/packages/node_modules/node-sass/node_modules/supports-color
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT request@2.79.0 /tmp/contents941099428/deps/0/packages/node_modules/node-sass/node_modules/request
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT caseless@0.11.0 /tmp/contents941099428/deps/0/packages/node_modules/node-sass/node_modules/caseless
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT har-validator@2.0.6 /tmp/contents941099428/deps/0/packages/node_modules/node-sass/node_modules/har-validator
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT qs@6.3.2 /tmp/contents941099428/deps/0/packages/node_modules/node-sass/node_modules/qs
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT tunnel-agent@0.4.3 /tmp/contents941099428/deps/0/packages/node_modules/node-sass/node_modules/tunnel-agent
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT protractor@5.1.2 /tmp/contents941099428/deps/0/packages/node_modules/protractor
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT chalk@1.1.3 /tmp/contents941099428/deps/0/packages/node_modules/protractor/node_modules/chalk
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT ansi-styles@2.2.1 /tmp/contents941099428/deps/0/packages/node_modules/protractor/node_modules/ansi-styles
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT supports-color@2.0.0 /tmp/contents941099428/deps/0/packages/node_modules/protractor/node_modules/supports-color
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT webdriver-manager@12.0.6 /tmp/contents941099428/deps/0/packages/node_modules/protractor/node_modules/webdriver-manager
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT del@2.2.2 /tmp/contents941099428/deps/0/packages/node_modules/protractor/node_modules/del
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT globby@5.0.0 /tmp/contents941099428/deps/0/packages/node_modules/protractor/node_modules/globby
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT pify@2.3.0 /tmp/contents941099428/deps/0/packages/node_modules/protractor/node_modules/pify
+   2018-03-30T14:24:57.58+0530 [STG/0] OUT minimist@1.2.0 /tmp/contents941099428/deps/0/packages/node_modules/protractor/node_modules/minimist
+   2018-03-30T14:24:57.60+0530 [STG/0] OUT        Installing any new modules (package.json + package-lock.json)
+   2018-03-30T14:25:08.11+0530 [STG/0] OUT up to date in 10.015s
+   2018-03-30T14:25:10.40+0530 [STG/0] OUT -----> Running go build finalize
+   2018-03-30T14:25:38.71+0530 [STG/0] OUT Exit status 0
+   2018-03-30T14:25:38.71+0530 [STG/0] OUT Uploading droplet, build artifacts cache...
+   2018-03-30T14:25:38.71+0530 [STG/0] OUT Uploading build artifacts cache...
+   2018-03-30T14:25:38.71+0530 [STG/0] OUT Uploading droplet...
+   2018-03-30T14:25:39.25+0530 [STG/0] OUT Uploaded build artifacts cache (18.1M)
+   2018-03-30T14:25:40.11+0530 [API/17] OUT Creating droplet for app with guid 8dc88bc5-b372-4158-b221-f82740f888ae
+   2018-03-30T14:25:44.35+0530 [STG/0] OUT Uploaded droplet (76.4M)
+   2018-03-30T14:25:44.38+0530 [STG/0] OUT Uploading complete
+   2018-03-30T14:25:44.40+0530 [STG/0] OUT Cell cd3a6a7e-8bb3-4631-a839-296095130133 stopping instance eb175691-72a7-44a9-9073-234b008125dd
+   2018-03-30T14:25:44.40+0530 [STG/0] OUT Cell cd3a6a7e-8bb3-4631-a839-296095130133 destroying container for instance eb175691-72a7-44a9-9073-234b008125dd
+   2018-03-30T14:25:44.98+0530 [CELL/0] OUT Cell 732975b5-a95c-4e37-b595-a0a3c3a9e2ea creating container for instance 09f64768-56f3-47ec-5caa-1cc6
+   2018-03-30T14:25:45.64+0530 [CELL/0] OUT Cell 732975b5-a95c-4e37-b595-a0a3c3a9e2ea successfully created container for instance 09f64768-56f3-47ec-5caa-1cc6
+   2018-03-30T14:25:50.29+0530 [STG/0] OUT Cell cd3a6a7e-8bb3-4631-a839-296095130133 successfully destroyed container for instance eb175691-72a7-44a9-9073-234b008125dd
+   2018-03-30T14:25:56.35+0530 [CELL/0] OUT Starting health monitoring of container
+   2018-03-30T14:26:01.34+0530 [APP/PROC/WEB/0] OUT ** NG Live Development Server is listening on localhost:8080, open your browser on http://localhost:8080/ **
+   2018-03-30T14:26:22.16+0530 [APP/PROC/WEB/0] OUT Date: 2018-03-30T08:56:22.159Z
+   2018-03-30T14:26:22.16+0530 [APP/PROC/WEB/0] OUT Hash: 51575849254be44a3222
+   2018-03-30T14:26:22.16+0530 [APP/PROC/WEB/0] OUT Time: 20718ms
+   2018-03-30T14:26:22.16+0530 [APP/PROC/WEB/0] OUT chunk {inline} inline.bundle.js (inline) 3.85 kB [entry] [rendered]
+   2018-03-30T14:26:22.16+0530 [APP/PROC/WEB/0] OUT chunk {main} main.bundle.js (main) 63.1 kB [initial] [rendered]
+   2018-03-30T14:26:22.16+0530 [APP/PROC/WEB/0] OUT chunk {polyfills} polyfills.bundle.js (polyfills) 549 kB [initial] [rendered]
+   2018-03-30T14:26:22.16+0530 [APP/PROC/WEB/0] OUT chunk {styles} styles.bundle.js (styles) 41.8 kB [initial] [rendered]
+   2018-03-30T14:26:22.16+0530 [APP/PROC/WEB/0] OUT chunk {vendor} vendor.bundle.js (vendor) 9.5 MB [initial] [rendered]
+   2018-03-30T14:26:22.28+0530 [APP/PROC/WEB/0] OUT webpack: Compiled successfully.
+   2018-03-30T14:28:56.79+0530 [HEALTH/0] ERR Failed to make TCP connection to port 8080: connection refused
+   2018-03-30T14:28:56.79+0530 [CELL/0] ERR Timed out after 3m0s: health check never passed.
+   2018-03-30T14:28:56.80+0530 [CELL/SSHD/0] OUT Exit status 0
+   2018-03-30T14:28:56.85+0530 [APP/PROC/WEB/0] OUT Exit status 143
+   2018-03-30T14:28:56.91+0530 [API/4] OUT Process has crashed with type: "web"
+   2018-03-30T14:28:56.93+0530 [API/4] OUT App instance exited with guid 8dc88bc5-b372-4158-b221-f82740f888ae payload: {"instance"=>"09f64768-56f3-47ec-5caa-1cc6", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"Instance never healthy after 3m0s: Failed to make TCP connection to port 8080: connection refused", "crash_count"=>1, "crash_timestamp"=>1522400336901370686, "version"=>"8ace4407-1662-446f-aca9-9d63ee33c30f"}
+   2018-03-30T14:28:56.94+0530 [CELL/0] OUT Cell 732975b5-a95c-4e37-b595-a0a3c3a9e2ea stopping instance 09f64768-56f3-47ec-5caa-1cc6
+   2018-03-30T14:28:56.94+0530 [CELL/0] OUT Cell 732975b5-a95c-4e37-b595-a0a3c3a9e2ea destroying container for instance 09f64768-56f3-47ec-5caa-1cc6
+   2018-03-30T14:28:57.17+0530 [CELL/0] OUT Cell f86d1112-f452-4f07-b965-8635a9ffa926 creating container for instance c3caee92-3f71-497d-4b1a-b709
+   2018-03-30T14:28:57.51+0530 [CELL/0] OUT Cell f86d1112-f452-4f07-b965-8635a9ffa926 successfully created container for instance c3caee92-3f71-497d-4b1a-b709
+   2018-03-30T14:29:00.14+0530 [CELL/0] OUT Cell 732975b5-a95c-4e37-b595-a0a3c3a9e2ea successfully destroyed container for instance 09f64768-56f3-47ec-5caa-1cc6
+   2018-03-30T14:29:05.75+0530 [CELL/0] OUT Starting health monitoring of container
+   2018-03-30T14:29:08.60+0530 [APP/PROC/WEB/0] OUT ** NG Live Development Server is listening on localhost:8080, open your browser on http://localhost:8080/ **
+   2018-03-30T14:29:17.56+0530 [APP/PROC/WEB/0] OUT Date: 2018-03-30T08:59:17.562Z
+   2018-03-30T14:29:17.56+0530 [APP/PROC/WEB/0] OUT Hash: 51575849254be44a3222
+   2018-03-30T14:29:17.56+0530 [APP/PROC/WEB/0] OUT Time: 8913ms
+   2018-03-30T14:29:17.56+0530 [APP/PROC/WEB/0] OUT chunk {inline} inline.bundle.js (inline) 3.85 kB [entry] [rendered]
+   2018-03-30T14:29:17.56+0530 [APP/PROC/WEB/0] OUT chunk {main} main.bundle.js (main) 63.1 kB [initial] [rendered]
+   2018-03-30T14:29:17.56+0530 [APP/PROC/WEB/0] OUT chunk {polyfills} polyfills.bundle.js (polyfills) 549 kB [initial] [rendered]
+   2018-03-30T14:29:17.56+0530 [APP/PROC/WEB/0] OUT chunk {styles} styles.bundle.js (styles) 41.8 kB [initial] [rendered]
+   2018-03-30T14:29:17.56+0530 [APP/PROC/WEB/0] OUT chunk {vendor} vendor.bundle.js (vendor) 9.5 MB [initial] [rendered]
+   2018-03-30T14:29:17.63+0530 [APP/PROC/WEB/0] OUT webpack: Compiled successfully.

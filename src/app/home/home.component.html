@@ -2,17 +2,21 @@
   <h1>Welcome to {{name}}</h1>
   
 </div>
-
+show
 <div class="coursesDiv">
   <h1 style="color:white;">All Courses</h1>
   <ul class="courseUl">
     <li class="courseli" *ngFor="let course of myCourses" (click)="show = !show">
-      <div class="licontent">
+      <div class="licontent" appColorsDirective>
        <span>Name: {{course.course}}</span><br>
        <span>Type: {{course.typeCourse}}</span>
+       <span>File Size: {{course.fileSize | converFileSize}}</span>
       </div>
     </li>
   </ul>
   
 </div>
 <div *ngIf="show">This is Front-end Courses</div>
+
+
+<a class="loginli" (click)="gotoQuote()">Sample Quotes</a> 

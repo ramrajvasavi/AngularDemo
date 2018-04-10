@@ -11,10 +11,13 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
+import { ColorsDirectiveDirective } from './directives/colors-directive.directive';
+import { ConverFileSizePipe } from './pipes/conver-file-size.pipe';
 const appRoutes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'home', component: HomeComponent },
-  { path: 'quote', component: ParentComponent }
+  { path: 'quote', component: ParentComponent },
+  { path: '', component: LoginComponent }
 ];
 
 
@@ -24,7 +27,9 @@ const appRoutes: Routes = [
     LoginComponent,
     HomeComponent,
     ParentComponent,
-    ChildComponent
+    ChildComponent,
+    ColorsDirectiveDirective,
+    ConverFileSizePipe
   ],
   imports: [
     BrowserModule,
