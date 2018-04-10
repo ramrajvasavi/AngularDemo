@@ -57,7 +57,10 @@ body {
     cursor: text;
     background-color: transparent;
   }
-  
+  :-webkit-input-placeholder {
+    opacity: 0;
+    transition: inherit;
+  }
   input:focus {
     outline: 0;
     border-bottom: 1px solid #666;
@@ -67,8 +70,8 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.05em;
   }
- 
-  input + label {
+  
+  input:placeholder-shown + label {
     cursor: text;
     max-width: 66.66%;
     white-space: nowrap;
@@ -78,8 +81,20 @@ body {
     transform: translate(0, 1.8rem) scale(0.8);
     
   }
-  input:focus  + label{
+  ::-webkit-input-placeholder {
+    opacity: 0;
+    transition: inherit;
+  }
+  input:focus::-webkit-input-placeholder {
+    opacity: 1;
+  }
+  input:not(:placeholder-shown) + label,
+input:focus + label{
     transform: translate(0, 0) scale(0.6);
     cursor: pointer;
     color:lightblue;
   }
+
+
+
+  

@@ -2,6 +2,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { LoginServiceService } from '../service/login-service.service';
 import { QuoteDataService } from '../service/quote-data.service';
 import { Router, ActivatedRoute } from '@angular/router';
+import { JosnusersService } from '../service/josnusers.service';
 export interface type{
   typeCourse:string;
   course:string;
@@ -17,6 +18,7 @@ export interface type{
 export class HomeComponent implements OnInit {
   name:String;
   show;
+  public users = [];
 public myCourses:type[] = [
     {typeCourse: "Markup", course: 'HTML',fileSize:12042 },
     {typeCourse: "Style", course: 'CSS',fileSize:2042},
@@ -30,9 +32,12 @@ public myCourses:type[] = [
     {typeCourse: "Programming language", course: 'Phython',fileSize:1695222},
     {typeCourse: "Database", course: 'MangoDb',fileSize:2568042}
 ];
-  constructor(private data: LoginServiceService, private router: Router) { }
+  constructor(private data: LoginServiceService, private router: Router, private usersData: JosnusersService) { }
   ngOnInit() {
     this.getUserName();
+    this.usersData.getUsers().subscribe((data => {
+      this.users = data;
+    }))
   }
   getUserName(){
     this.data.currentMessage.subscribe(name => this.name = name);

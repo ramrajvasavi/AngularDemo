@@ -1,6 +1,6 @@
 <div>
   <h1>Welcome to {{name}}</h1>
-  
+
 </div>
 show
 <div class="coursesDiv">
@@ -8,15 +8,34 @@ show
   <ul class="courseUl">
     <li class="courseli" *ngFor="let course of myCourses" (click)="show = !show">
       <div class="licontent" appColorsDirective>
-       <span>Name: {{course.course}}</span><br>
-       <span>Type: {{course.typeCourse}}</span>
-       <span>File Size: {{course.fileSize | converFileSize}}</span>
+        <span>Name: {{course.course}}</span>
+        <br>
+        <span>Type: {{course.typeCourse}}</span>
+        <br>
+        <span>File Size: {{course.fileSize | converFileSize}}</span>
       </div>
     </li>
   </ul>
-  
+
 </div>
 <div *ngIf="show">This is Front-end Courses</div>
 
 
-<a class="loginli" (click)="gotoQuote()">Sample Quotes</a> 
+<a class="loginli" (click)="gotoQuote()">Sample Quotes</a>
+
+
+<div>GitHUb users</div>
+
+<div class="userDiv">
+  <ul class="courseUl">
+    <li class="courseli" *ngFor="let user of users">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="{{user.avatar}}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">{{user.first_name +" "+ user.last_name}}</h5>
+          <p class="card-text">{{user.avatar}}</p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>

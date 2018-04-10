@@ -5,6 +5,7 @@ import { HttpModule } from "@angular/http";
 import { FormsModule } from '@angular/forms';
 import { LoginServiceService } from './service/login-service.service';
 import { QuoteDataService } from './service/quote-data.service';
+import { JsonmoduleModule } from './jsonmodule/jsonmodule.module';
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
@@ -35,6 +36,7 @@ const appRoutes: Routes = [
     BrowserModule,
     FormsModule,
     HttpModule ,
+    JsonmoduleModule,
     RouterModule.forRoot(
       appRoutes,
       { enableTracing: true } // <-- debugging purposes only
