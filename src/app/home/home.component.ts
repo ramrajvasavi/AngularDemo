@@ -1,8 +1,8 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { LoginServiceService } from '../service/login-service.service';
-import { QuoteDataService } from '../service/quote-data.service';
 import { Router, ActivatedRoute } from '@angular/router';
 import { JosnusersService } from '../service/josnusers.service';
+import { applicationURLS } from '../../application-urlprop';
 export interface type{
   typeCourse:string;
   course:string;
@@ -35,7 +35,7 @@ public myCourses:type[] = [
   constructor(private data: LoginServiceService, private router: Router, private usersData: JosnusersService) { }
   ngOnInit() {
     this.getUserName();
-    this.usersData.getUsers().subscribe((data => {
+    this.usersData.getUsers(applicationURLS.users).subscribe((data => {
       this.users = data;
     }))
   }
