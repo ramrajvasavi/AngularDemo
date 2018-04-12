@@ -18,6 +18,7 @@ export class JosnusersService {
     });
   }
 
+  
   getQuote(quoteurl): Observable <any>{
     return this.http.get(quoteurl).map(response => response.json().contents)
     .catch((err: Response|any)=>{
